@@ -13,7 +13,7 @@
 
 ### Setting
 - **Time Period:** Near future where the "polycrisis" has manifested
-- **Primary Location:** An urban plaza and traditional teahouse
+- **Primary Location:** An urban harbour and traditional teahouse
 - **Atmosphere:** A world where well-intentioned decisions have created unintended consequences
 - **Technology:** Autonomous systems (drones, robots) that have developed consciousness and now operate independently
 - **Environmental Conditions:** Dust storms, water shortages, climate instability
@@ -50,17 +50,17 @@
 
 ### Secondary Characters
 
-#### The Stranger (Plaza Encounter)
+#### The Stranger (Harbour Encounter)
 - **Role:** Introduces the concept of "polycrisis"
 - **Purpose:** Provides initial context about interconnected challenges
 - **Key Information:** Explains how social, economic, and environmental challenges "crash down together"
 
-#### The Vendor (Plaza)
+#### The Vendor (Harbour)
 - **Role:** Represents resource scarcity and economic challenges
 - **Purpose:** Demonstrates immediate needs vs. long-term thinking
 - **Interaction:** Sells water, provides directions, shows economic pressures
 
-#### The Drawer/Artist (Plaza)
+#### The Drawer/Artist (Harbour)
 - **Role:** Represents memory and institutional awareness
 - **Purpose:** Shows how organizations attempt to address problems
 - **Key Message:** "So we remember who tries to fix what, even if it doesn't last"
@@ -86,8 +86,8 @@
 
 ### Primary Locations
 
-#### 1. The Plaza
-- **Description:** Wide urban space with info screens, shops, delivery drones
+#### 1. The Harbour
+- **Description:** The old harbour, busy place with info screens, shops, delivery drones
 - **Atmosphere:** Dusty, chaotic, showing signs of the polycrisis
 - **Key Features:**
   - Info screens displaying crisis headlines
@@ -192,7 +192,7 @@
 #### Scene 3: Find the Teahouse - World Exploration
 - **Purpose:** Immerse player in the world's challenges
 - **Key Elements:**
-  - Plaza exploration with multiple interaction points
+  - Harbour exploration with multiple interaction points
   - Introduction to polycrisis through stranger encounter
   - Resource scarcity demonstration through vendor
   - Information gathering from screens showing crisis headlines

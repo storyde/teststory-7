@@ -5,7 +5,7 @@ on-arrival: poly-what = 1
 on-departure: poly-what = 0
 tags: intro  
 
-You step into a wide plaza.
+You reach the old harbour.
 
 Info screens alternate with small shops. 
 A delivery drone circles overhead, searching for the best angle to take a selfie.  
@@ -14,13 +14,13 @@ On the horizon, a dust storm gathers, its grit already scratching at your throat
 
 Nearby, someone mutters something about the polycrisis...
 
-- #plaza
+- #harbour
 
 @poly_what  
 title: The poly-what?  
 subtitle: Isn’t a normal crisis bad enough already?  
 view-if: poly-what = 1
-tags: plaza
+tags: harbour
 
 Me: The poly-what?  
 
@@ -42,11 +42,11 @@ Stranger: Sure, it's that way. Just follow the red banners; they'll lead you str
 
 They point to a sidestreet, then disappear into the crowd.
 
-- #plaza
+- #harbour
 
 @info_screen  
 title: Read the info-screen
-tags: plaza
+tags: harbour
 max-visits: 1
 
 You step closer to one of the info-screens. Images flicker: last week’s megafires, famine zones, heatwaves, and protests.
@@ -58,11 +58,11 @@ Headline1: Blackouts expected to continue.
 Headline2: Global harvests at record low.  
 Headline3: Water shortages intensifying.  
 
-- #plaza
+- #harbour
 
 @vendor_scene  
 title: Buy water from a vendor  
-tags: plaza
+tags: harbour
 max-visits: 1
 
 A vendor waves a cracked purifier bottle at you.  
@@ -102,11 +102,11 @@ The vendor points down a side street.
 
 Vendor: Follow the red banners. You can’t miss it.  
 
-- #plaza
+- #harbour
 
 @people_drawing
 title: Ask for directions to the teahouse
-tags: plaza
+tags: harbour
 max-visits: 1
 
 You see some people with their kids scratching shapes into the dust.  
@@ -138,12 +138,12 @@ Me: Do you know where the teahouse is?
 One points down a side street.  
 Drawer: Follow the red banners. You can’t miss it.  
 
-- #plaza
+- #harbour
 
 @side-street
 title: Head to the teahouse
 view-if: know_sidestreet = 1 
-tags: plaza
+tags: harbour
 
 You stumble through the side street, dust stinging your face. 
 

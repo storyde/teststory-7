@@ -3,7 +3,7 @@ tags: start-frmwrk
 
 Facilyn sets down her tea and leans forward slightly, her eyes brightening with the kind of enthusiasm that comes from years of helping people navigate complex decisions.
 
-Facilyn: Excellent! First we define what 'whole' you're managing. It's about where you actually have decision-making power.
+Facilyn: Excellent! First we define what "whole" you're managing. It's about where you actually have decision-making power.
 
 Facilyn: A manageable whole has three essential elements: the people who make decisions, the resources available to you, and the money you have or can generate. 
 
@@ -11,12 +11,12 @@ Facilyn: A manageable whole has three essential elements: the people who make de
 
 @sector_individual
 title: Choose a sector
-view-if: part-of = "organisation"
+view-if: part-of = "individual"
 tags: whole_mgmt
 
-@sector_idividual
+@sector_group
 title: Choose a sector
-view-if: part-of = "organisation"
+view-if: part-of = "group"
 tags: whole_mgmt
 
 @choose_sector
@@ -100,9 +100,3 @@ title: No, we are not
 go-to: @purpose_statement
 
 Me: No, we are not.
-
-
-
-
-
-
