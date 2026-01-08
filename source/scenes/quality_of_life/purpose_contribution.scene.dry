@@ -1,0 +1,162 @@
+title: Purpose and Contribution
+subtitle: The Three Essential Questions
+new-page: true
+
+Facilyn: Purpose and contribution help you discover the meaning in what you're doing. There are three important questions that will guide you.
+
+Which question would you like to explore first?
+
+- #purpose_questions
+
+@what_are_we_about
+title: What are we about?
+tags: purpose_questions
+on-arrival: qol_what_about = "explored"
+
+Me: What are we about?
+
+- #qol_purpose
+
+@what_want_to_be
+title: What do we want to be?
+tags: purpose_questions
+on-arrival: qol_want_to_be = "explored"
+
+Me: What do we want to be?
+
+- #qol_aspiration
+
+@what_accomplish
+title: What do we ultimately want to accomplish?
+tags: purpose_questions
+on-arrival: qol_accomplish = "explored"
+
+Me: What do we ultimately want to accomplish?
+
+- #qol_accomplish
+
+@need_clarification_purpose
+title: I need more clarification on these questions
+tags: purpose_questions
+
+Me: I need more clarification on these questions.
+
+Facilyn: These three questions help you find meaning and personal relevance in your purpose. The first asks about your current identity and focus. The second explores your future aspirations. The third examines your long-term impact.
+
+Facilyn: If you're working within an organization with a statement of purpose, you already have an answer to the first question. The other two help you find personal meaning in that larger purpose.
+
+A service robot wheels by carrying a tray of tea, stopping to bow politely to each table even though most are empty, apparently programmed with impeccable manners.
+
+- #purpose_questions
+
+# Purpose - What are we about?
+
+@education_mission
+title: We are about education and learning
+tags: qol_purpose
+on-arrival: qol_purpose = "education and learning"
+
+Me: We are about education and learning.
+
+@sustainability_focus
+title: We are about environmental sustainability
+tags: qol_purpose
+on-arrival: qol_purpose = "environmental sustainability"
+
+Me: We are about environmental sustainability.
+
+@community_service
+title: We are about serving our community
+tags: qol_purpose
+on-arrival: qol_purpose = "community service"
+
+Me: We are about serving our community.
+
+@innovation_development
+title: We are about innovation and development
+tags: qol_purpose
+on-arrival: qol_purpose = "innovation and development"
+
+Me: We are about innovation and development.
+
+@health_wellbeing
+title: We are about health and wellbeing
+tags: qol_purpose
+on-arrival: qol_purpose = "health and wellbeing"
+
+Me: We are about health and wellbeing.
+
+# Aspiration - What do we want to be?
+
+@trusted_leader
+title: A trusted leader in our field
+tags: qol_aspiration
+on-arrival: qol_aspiration = "trusted leader"
+
+Me: A trusted leader in our field.
+
+@positive_force
+title: A positive force for change
+tags: qol_aspiration
+on-arrival: qol_aspiration = "positive force for change"
+
+Me: A positive force for change.
+
+@resilient_adaptive
+title: Resilient and adaptive to challenges
+tags: qol_aspiration
+on-arrival: qol_aspiration = "resilient and adaptive"
+
+Me: Resilient and adaptive to challenges.
+
+@collaborative_partner
+title: A collaborative and supportive partner
+tags: qol_aspiration
+on-arrival: qol_aspiration = "collaborative partner"
+
+Me: A collaborative and supportive partner.
+
+@innovative_pioneer
+title: An innovative pioneer breaking new ground
+tags: qol_aspiration
+on-arrival: qol_aspiration = "innovative pioneer"
+
+Me: An innovative pioneer breaking new ground.
+
+# Accomplishment - What do we ultimately want to accomplish?
+
+@lasting_impact
+title: Create lasting positive impact for future generations
+tags: qol_accomplish
+on-arrival: qol_accomplish = "lasting positive impact"
+
+Me: Create lasting positive impact for future generations.
+
+@solve_problems
+title: Solve important problems that matter
+tags: qol_accomplish
+on-arrival: qol_accomplish = "solve important problems"
+
+Me: Solve important problems that matter.
+
+@empower_others
+title: Empower others to reach their potential
+tags: qol_accomplish
+on-arrival: qol_accomplish = "empower others"
+
+Me: Empower others to reach their potential.
+
+@regenerate_systems
+title: Regenerate damaged social and ecological systems
+tags: qol_accomplish
+on-arrival: qol_accomplish = "regenerate systems"
+
+Me: Regenerate damaged social and ecological systems.
+
+@bridge_divides
+title: Bridge divides and build understanding
+tags: qol_accomplish
+on-arrival: qol_accomplish = "bridge divides"
+
+Me: Bridge divides and build understanding.
+

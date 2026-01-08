@@ -1,0 +1,71 @@
+title: Quality of Life Statement Creation
+subtitle: Bringing It All Together
+new-page: true
+on-arrival: qol_statement_complete = 1
+
+Facilyn: Now we bring together all the elements you've explored - economic well-being, relationships, challenge and growth, and purpose and contribution - into a unified Quality of Life statement.
+
+Facilyn: Remember, what matters is that this represents what's most important to you and that all decision makers see their thoughts reflected in it.
+
+How would you like to approach creating your statement?
+
+- #statement_approach
+
+@combine_all_elements
+title: Combine all the elements I've chosen
+tags: statement_approach
+
+Me: Combine all the elements I've chosen.
+
+Facilyn: Excellent. Your Quality of Life statement reflects: [? if qol_economic : your focus on [+ qol_economic +] ?][? if qol_relationships : , relationships characterized by [+ qol_relationships +] ?][? if qol_challenge_growth : , an environment that provides [+ qol_challenge_growth +] ?][? if qol_purpose : , grounded in the purpose of [+ qol_purpose +] ?][? if qol_aspiration : with the aspiration to be [+ qol_aspiration +] ?][? if qol_accomplish : , ultimately seeking to [+ qol_accomplish +] ?].
+
+- #statement_next
+
+@review_and_refine
+title: Review and refine the elements first
+tags: statement_approach
+
+Me: I'd like to review and refine the elements first.
+
+Facilyn: Wise approach. Take time to ensure each element truly reflects what you value. You can always return to any of the four areas to make adjustments.
+
+- #statement_next
+
+@need_clarification_statement
+title: I need more guidance on creating the statement
+tags: statement_approach
+
+Me: I need more guidance on creating the statement.
+
+Facilyn: Think of your Quality of Life statement as painting a picture of how you want life to feel and function within your whole. It should capture simple phrases that represent your values, not well-worded sentences yet.
+
+Facilyn: You'll refine this statement over time. What's important now is ensuring it reflects the collective sense of what's important and why you're doing what you're doing.
+
+A patrol robot glides by the window, stopping to carefully examine a fallen leaf, apparently running a full diagnostic to determine if it poses any security threat to the neighborhood.
+
+- #statement_approach
+
+@finalize_statement
+title: Finalize my Quality of Life statement
+tags: statement_next
+
+Me: I'm ready to finalize my Quality of Life statement.
+
+Facilyn: Your Quality of Life statement is now part of your holistic context. This foundation will guide your decision-making as we move forward to explore the future resource base.
+
+- #statement_complete
+
+@continue_to_future_base
+title: Continue to Future Resource Base
+tags: statement_complete
+go-to: future_resource_base_intro
+
+Me: Let's continue to the Future Resource Base.
+
+@review_statement_again
+title: Let me review my statement once more
+tags: statement_next
+
+Me: Let me review my statement once more.
+
+- #statement_approach

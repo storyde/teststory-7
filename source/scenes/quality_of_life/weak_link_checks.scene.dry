@@ -1,0 +1,155 @@
+title: Weak Link Checks
+subtitle: Identifying Vulnerabilities
+new-page: true
+
+Facilyn: The weak link checks help you identify vulnerabilities in three key areas. A chain is only as strong as its weakest link, and the same applies to your decisions.
+
+Facilyn: Which type of weak link would you like to examine first with your example?
+
+- #weak_link_types
+
+@social_weak_link
+title: Social Weak Link - People and relationships
+tags: weak_link_types
+
+Me: Social Weak Link - People and relationships.
+
+Facilyn: The social weak link asks: "Will this action create resistance from people whose support you need?" Consider how your decision might affect relationships with stakeholders, family, colleagues, or community members.
+
+- #social_options
+
+@biological_weak_link
+title: Biological Weak Link - Living systems and health
+tags: weak_link_types
+
+Me: Biological Weak Link - Living systems and health.
+
+Facilyn: The biological weak link asks: "Does this action address the most vulnerable aspect of the biological system?" Consider impacts on health, ecosystems, or the most fragile elements that could cause system failure.
+
+- #biological_options
+
+@financial_weak_link
+title: Financial Weak Link - Economic vulnerabilities
+tags: weak_link_types
+
+Me: Financial Weak Link - Economic vulnerabilities.
+
+Facilyn: The financial weak link asks: "Does this action strengthen the weakest part of the production chain or economic system?" Look for bottlenecks, cash flow issues, or economic dependencies that could undermine success.
+
+- #financial_options
+
+@need_clarification_wl
+title: I need more clarification on weak links
+tags: weak_link_types
+
+Me: I need more clarification on weak links.
+
+Facilyn: Think of weak links as the points where your plan is most likely to fail. Social weak links involve people who might resist or withdraw support. Biological weak links are about health and ecosystem vulnerabilities. Financial weak links are economic bottlenecks or dependencies.
+
+Facilyn: The goal is to identify and strengthen these vulnerable points before they cause problems.
+
+A security robot patrols the street, diligently checking every door handle while completely missing the open window on the second floor - a perfect example of missing the real weak link.
+
+- #weak_link_types
+
+# Social Weak Link Options
+
+@no_social_resistance
+title: No, it won't create resistance
+tags: social_options
+on-arrival: filter_social_wl_status = "no resistance"
+
+Me: No, it won't create resistance.
+
+- #wl_next
+
+@some_social_resistance
+title: It might create some resistance
+tags: social_options
+on-arrival: filter_social_wl_status = "some resistance"
+
+Me: It might create some resistance.
+
+- #wl_next
+
+@significant_social_resistance
+title: Yes, it could create significant resistance
+tags: social_options
+on-arrival: filter_social_wl_status = "significant resistance"
+
+Me: Yes, it could create significant resistance.
+
+- #wl_next
+
+# Biological Weak Link Options
+
+@addresses_bio_weakness
+title: Yes, it addresses biological vulnerabilities
+tags: biological_options
+on-arrival: filter_bio_wl_status = "addresses weakness"
+
+Me: Yes, it addresses biological vulnerabilities.
+
+- #wl_next
+
+@neutral_bio_impact
+title: It has neutral biological impact
+tags: biological_options
+on-arrival: filter_bio_wl_status = "neutral impact"
+
+Me: It has neutral biological impact.
+
+- #wl_next
+
+@creates_bio_weakness
+title: It might create new biological vulnerabilities
+tags: biological_options
+on-arrival: filter_bio_wl_status = "creates weakness"
+
+Me: It might create new biological vulnerabilities.
+
+- #wl_next
+
+# Financial Weak Link Options
+
+@strengthens_financial
+title: Yes, it strengthens financial weak points
+tags: financial_options
+on-arrival: filter_fin_wl_status = "strengthens weak points"
+
+Me: Yes, it strengthens financial weak points.
+
+- #wl_next
+
+@neutral_financial
+title: It has neutral financial impact
+tags: financial_options
+on-arrival: filter_fin_wl_status = "neutral impact"
+
+Me: It has neutral financial impact.
+
+- #wl_next
+
+@creates_financial_risk
+title: It might create new financial vulnerabilities
+tags: financial_options
+on-arrival: filter_fin_wl_status = "creates risk"
+
+Me: It might create new financial vulnerabilities.
+
+- #wl_next
+
+@continue_to_marginal
+title: Continue to Marginal Reaction Check
+tags: wl_next
+go-to: marginal_reaction_check
+
+Me: Let's move on to the Marginal Reaction Check.
+
+@review_weak_links
+title: Review my weak link assessments
+tags: wl_next
+
+Me: I'd like to review my weak link assessments.
+
+- #weak_link_types

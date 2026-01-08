@@ -1,0 +1,83 @@
+title: Cause and Effect Check
+subtitle: Addressing Root Causes
+new-page: true
+
+Facilyn: The first context check asks a crucial question: "Does this action address the root cause of the problem?" This helps you avoid treating symptoms while ignoring underlying causes.
+
+Facilyn: Think about your example decision. What problem or need is driving this choice?
+
+How would you evaluate your decision against this check?
+
+- #cause_effect_options
+
+@addresses_root_cause
+title: Yes, it addresses the root cause
+tags: cause_effect_options
+on-arrival: filter_ce_status = "addresses root cause"
+
+Me: Yes, it addresses the root cause.
+
+Facilyn: Excellent. You've identified that your action targets the fundamental issue, not just its symptoms. This gives your decision a solid foundation.
+
+- #ce_next
+
+@treats_symptoms
+title: No, it only treats symptoms
+tags: cause_effect_options
+on-arrival: filter_ce_status = "treats symptoms"
+
+Me: No, it only treats symptoms.
+
+Facilyn: An important realization. Treating symptoms might provide temporary relief, but the underlying problem will likely resurface. Consider how you might address the deeper cause instead.
+
+- #ce_next
+
+@partially_addresses
+title: It partially addresses the root cause
+tags: cause_effect_options
+on-arrival: filter_ce_status = "partially addresses"
+
+Me: It partially addresses the root cause.
+
+Facilyn: A nuanced assessment. Many solutions address some aspects of root causes while missing others. Consider what additional actions might be needed for a more complete solution.
+
+- #ce_next
+
+@need_clarification_ce
+title: I need help distinguishing cause from symptom
+tags: cause_effect_options
+
+Me: I need help distinguishing cause from symptom.
+
+Facilyn: Think of it this way - symptoms are what you observe or experience, while causes are what creates those symptoms. For example, if robots keep malfunctioning, the symptom is broken robots, but the cause might be poor maintenance or inadequate training.
+
+Facilyn: Ask yourself: if I solve this, will the problem stay solved, or will it likely return in another form?
+
+A repair robot wheels past the teahouse, methodically fixing a street lamp that keeps flickering, apparently unaware that the real problem is the faulty electrical connection three blocks away.
+
+- #cause_effect_options
+
+@continue_to_weak_link
+title: Continue to Weak Link Checks
+tags: ce_next
+go-to: weak_link_checks
+
+Me: Let's move on to the Weak Link Checks.
+
+@reconsider_decision
+title: I want to reconsider my decision
+tags: ce_next
+
+Me: I want to reconsider my decision based on this check.
+
+Facilyn: Wise reflection. The context checks are meant to help you refine your thinking. Take time to consider how you might better address root causes.
+
+- #cause_effect_options
+
+@review_ce_check
+title: Let me review this check again
+tags: ce_next
+
+Me: Let me review this check again.
+
+- #cause_effect_options

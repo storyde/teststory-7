@@ -1,0 +1,94 @@
+title: Marginal Reaction Check
+subtitle: Optimizing Resource Use
+new-page: true
+
+Facilyn: The marginal reaction check asks: "Which action provides the greatest return per unit invested?" This helps you optimize your use of time, money, and energy.
+
+Facilyn: Consider your example decision alongside other possible actions. How does it compare in terms of return on investment?
+
+How would you evaluate your decision against this check?
+
+- #marginal_options
+
+@highest_return
+title: It provides the highest return on investment
+tags: marginal_options
+on-arrival: filter_mr_status = "highest return"
+
+Me: It provides the highest return on investment.
+
+Facilyn: Excellent. You've identified this as the most efficient use of your resources among available options. This suggests strong alignment with resource optimization principles.
+
+- #mr_next
+
+@good_return
+title: It provides good return, but others might be better
+tags: marginal_options
+on-arrival: filter_mr_status = "good return"
+
+Me: It provides good return, but others might be better.
+
+Facilyn: A thoughtful assessment. Consider whether you should pursue those higher-return options first, or if there are other factors that make this choice worthwhile despite lower returns.
+
+- #mr_next
+
+@poor_return
+title: It provides relatively poor return on investment
+tags: marginal_options
+on-arrival: filter_mr_status = "poor return"
+
+Me: It provides relatively poor return on investment.
+
+Facilyn: An honest evaluation. This suggests you might want to reconsider this action or find ways to improve its efficiency. Sometimes poor returns are justified by other benefits, but it's important to be conscious of this trade-off.
+
+- #mr_next
+
+@hard_to_compare
+title: It's difficult to compare returns
+tags: marginal_options
+on-arrival: filter_mr_status = "difficult comparison"
+
+Me: It's difficult to compare returns.
+
+Facilyn: That's often the case when comparing different types of benefits - financial, social, environmental, or personal. Try to identify the most important outcomes and compare how effectively different actions achieve those specific goals.
+
+- #mr_next
+
+@need_clarification_mr
+title: I need help understanding this check
+tags: marginal_options
+
+Me: I need help understanding this check.
+
+Facilyn: Think of it as asking "What's the biggest bang for your buck?" Compare not just the total benefits, but the benefits relative to what you're investing. A small action with modest benefits might have better returns than a large action with bigger benefits if it requires much less investment.
+
+Facilyn: Consider time, money, energy, and opportunity costs - what else could you do with those same resources?
+
+An efficiency robot methodically sorts recycling outside the teahouse, spending five minutes perfectly organizing each bottle while a growing pile of unsorted items accumulates behind it - a classic example of optimizing the wrong metric.
+
+- #marginal_options
+
+@continue_to_gpa
+title: Continue to Gross Profit Analysis Check
+tags: mr_next
+go-to: gross_profit_check
+
+Me: Let's move on to the Gross Profit Analysis Check.
+
+@reconsider_efficiency
+title: I want to reconsider the efficiency of my decision
+tags: mr_next
+
+Me: I want to reconsider the efficiency of my decision.
+
+Facilyn: Smart thinking. Resource optimization is crucial for sustainable success. Consider what adjustments might improve your return on investment.
+
+- #marginal_options
+
+@review_mr_check
+title: Let me review this check again
+tags: mr_next
+
+Me: Let me review this check again.
+
+- #marginal_options

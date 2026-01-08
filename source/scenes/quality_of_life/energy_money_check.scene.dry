@@ -1,0 +1,146 @@
+title: Energy/Money Source and Use Check
+subtitle: Sustainable Resource Management
+new-page: true
+
+Facilyn: This check has two parts: "Is the source appropriate?" and "Does the use align with sustainability?" It applies to both energy and money, helping ensure your resources come from and go toward sustainable purposes.
+
+Facilyn: Let's examine your example decision from both perspectives.
+
+Which aspect would you like to evaluate first?
+
+- #source_use_aspects
+
+@evaluate_source
+title: Evaluate the source of resources
+tags: source_use_aspects
+
+Me: Evaluate the source of resources.
+
+Facilyn: Consider where your energy or money comes from. Is it from unlimited sources (like solar) or limited ones (like fossil fuels)? Is it from benign sources or potentially damaging ones?
+
+- #source_options
+
+@evaluate_use
+title: Evaluate the use of resources
+tags: source_use_aspects
+
+Me: Evaluate the use of resources.
+
+Facilyn: Consider how you're using energy or money. Is it for infrastructure (lasting benefits), cyclical needs (renewable cycles), consumptive purposes (one-time use), or potentially addictive patterns?
+
+- #use_options
+
+@need_clarification_em
+title: I need clarification on this check
+tags: source_use_aspects
+
+Me: I need clarification on this check.
+
+Facilyn: Think about sustainability in both directions. Good sources are renewable, benign, and don't deplete natural or social capital. Good uses create lasting value, support natural cycles, or meet genuine needs rather than creating dependencies.
+
+Facilyn: For money, internal sources (from your own productivity) are generally more sustainable than external debt. For energy, renewable sources are preferable to finite ones.
+
+A solar-powered robot tends the teahouse garden, its panels gleaming in the afternoon sun while it waters plants with collected rainwater - a perfect example of appropriate source and use alignment.
+
+- #source_use_aspects
+
+# Source Evaluation Options
+
+@appropriate_source
+title: The source is appropriate and sustainable
+tags: source_options
+on-arrival: filter_energy_source_status = "appropriate source"
+
+Me: The source is appropriate and sustainable.
+
+- #em_next
+
+@questionable_source
+title: The source has some sustainability concerns
+tags: source_options
+on-arrival: filter_energy_source_status = "questionable source"
+
+Me: The source has some sustainability concerns.
+
+- #em_next
+
+@inappropriate_source
+title: The source is problematic or unsustainable
+tags: source_options
+on-arrival: filter_energy_source_status = "inappropriate source"
+
+Me: The source is problematic or unsustainable.
+
+- #em_next
+
+@mixed_sources
+title: It involves a mix of source types
+tags: source_options
+on-arrival: filter_energy_source_status = "mixed sources"
+
+Me: It involves a mix of source types.
+
+- #em_next
+
+# Use Evaluation Options
+
+@infrastructure_use
+title: It's for infrastructure - creating lasting benefits
+tags: use_options
+on-arrival: filter_energy_use_status = "infrastructure use"
+
+Me: It's for infrastructure - creating lasting benefits.
+
+- #em_next
+
+@cyclical_use
+title: It's for cyclical needs - supporting renewable cycles
+tags: use_options
+on-arrival: filter_energy_use_status = "cyclical use"
+
+Me: It's for cyclical needs - supporting renewable cycles.
+
+- #em_next
+
+@consumptive_use
+title: It's consumptive - one-time use with no lasting benefit
+tags: use_options
+on-arrival: filter_energy_use_status = "consumptive use"
+
+Me: It's consumptive - one-time use with no lasting benefit.
+
+- #em_next
+
+@potentially_addictive
+title: It might create dependency or addictive patterns
+tags: use_options
+on-arrival: filter_energy_use_status = "potentially addictive"
+
+Me: It might create dependency or addictive patterns.
+
+- #em_next
+
+@continue_to_sustainability
+title: Continue to Sustainability Check
+tags: em_next
+go-to: sustainability_check
+
+Me: Let's move on to the Sustainability Check.
+
+@reconsider_resources
+title: I want to reconsider my resource approach
+tags: em_next
+
+Me: I want to reconsider my resource approach.
+
+Facilyn: Thoughtful reflection. Sustainable resource management is crucial for long-term success and environmental responsibility.
+
+- #source_use_aspects
+
+@review_em_check
+title: Let me review this check again
+tags: em_next
+
+Me: Let me review this check again.
+
+- #source_use_aspects

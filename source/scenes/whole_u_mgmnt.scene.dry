@@ -1,0 +1,108 @@
+title: Yes, please show me how this framework works
+tags: start-frmwrk
+
+Facilyn sets down her tea and leans forward slightly, her eyes brightening with the kind of enthusiasm that comes from years of helping people navigate complex decisions.
+
+Facilyn: Excellent! First we define what 'whole' you're managing. It's about where you actually have decision-making power.
+
+Facilyn: A manageable whole has three essential elements: the people who make decisions, the resources available to you, and the money you have or can generate. 
+
+- #whole_mgmt
+
+@sector_individual
+title: Choose a sector
+view-if: part-of = "organisation"
+tags: whole_mgmt
+
+@sector_idividual
+title: Choose a sector
+view-if: part-of = "organisation"
+tags: whole_mgmt
+
+@choose_sector
+title: Choose a sector
+view-if: part-of = "organisation"
+tags: whole_mgmt
+
+Facilyn: I'm curious actually, which sector does your organisation belong to?
+
+- #sector
+
+@sector_agriculture
+title: Agriculture
+on-arrival: sector = "agriculture"
+go-to: @purpose_statement
+tags: sector
+
+Me: Agriculture
+
+@sector_business
+title: Business
+on-arrival: sector = "business"
+go-to: @purpose_statement
+tags: sector
+
+Me: Business
+
+@sector_culture
+title: Culture
+on-arrival: sector = "culture"
+go-to: @purpose_statement
+tags: sector
+
+Me: Culture
+
+@sector_education
+title: Education
+on-arrival: sector = "education"
+go-to: @purpose_statement
+tags: sector
+
+Me: Education
+
+@sector_industry
+title: Industry
+on-arrival: sector = "industry"
+go-to: @purpose_statement
+tags: sector
+
+Me: Industry
+
+@sector_nonprofit
+title: Nonprofit
+on-arrival: sector = "nonprofit"
+go-to: @purpose_statement
+tags: sector
+
+Me: Nonprofit
+
+@sector_publicservice
+title: Public service
+on-arrival: sector = "publicservice"
+tags: sector
+
+Me: Public service
+
+Facilyn: Is your organisation involved in public policymaking?
+
+- @policy_yes: Yes, we create public policies
+- @policy_no: No, we are not
+
+@policy_yes
+title: Yes, we create public policies
+on-arrival: sector = "policymaking"
+go-to: @purpose_statement
+
+Me: Yes, we create public policies
+
+@policy_no
+title: No, we are not
+go-to: @purpose_statement
+
+Me: No, we are not.
+
+
+
+
+
+

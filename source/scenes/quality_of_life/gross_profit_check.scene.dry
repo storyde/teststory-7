@@ -1,0 +1,105 @@
+title: Gross Profit Analysis Check
+subtitle: Enterprise Selection
+new-page: true
+
+Facilyn: The gross profit analysis check asks: "Which enterprises contribute most to covering overheads?" This helps you focus on activities that generate the best income relative to their additional costs.
+
+Facilyn: Think about your example decision in terms of income generation versus the extra costs it would create.
+
+How does your decision perform on this check?
+
+- #gpa_options
+
+@high_contribution
+title: It contributes significantly to covering overheads
+tags: gpa_options
+on-arrival: filter_gpa_status = "high contribution"
+
+Me: It contributes significantly to covering overheads.
+
+Facilyn: Excellent. This action generates good income relative to its additional costs, making it financially sustainable and helping support your overall operations.
+
+- #gpa_next
+
+@moderate_contribution
+title: It provides moderate contribution to overheads
+tags: gpa_options
+on-arrival: filter_gpa_status = "moderate contribution"
+
+Me: It provides moderate contribution to overheads.
+
+Facilyn: A reasonable assessment. While not the strongest financial performer, it still contributes positively to your economic sustainability.
+
+- #gpa_next
+
+@low_contribution
+title: It contributes little to covering overheads
+tags: gpa_options
+on-arrival: filter_gpa_status = "low contribution"
+
+Me: It contributes little to covering overheads.
+
+Facilyn: An important recognition. Low-contributing activities might be justified by other benefits, but you'll need higher-contributing enterprises to support them financially.
+
+- #gpa_next
+
+@costs_more
+title: It costs more than it contributes
+tags: gpa_options
+on-arrival: filter_gpa_status = "net cost"
+
+Me: It costs more than it contributes.
+
+Facilyn: A significant consideration. Net-cost activities require careful justification - they must provide substantial non-financial benefits to justify their economic burden on your system.
+
+- #gpa_next
+
+@not_applicable
+title: This check doesn't apply to my decision
+tags: gpa_options
+on-arrival: filter_gpa_status = "not applicable"
+
+Me: This check doesn't apply to my decision.
+
+Facilyn: That's perfectly valid. Not all decisions are about income generation. Personal, social, or environmental decisions might not have direct financial implications.
+
+- #gpa_next
+
+@need_clarification_gpa
+title: I need help understanding this analysis
+tags: gpa_options
+
+Me: I need help understanding this analysis.
+
+Facilyn: Think of gross profit as income minus the direct additional costs of that specific activity. For example, if you're considering a new service, what extra income would it generate, and what extra costs would it create? The difference is its contribution to covering your fixed overheads.
+
+Facilyn: Compare different activities to see which ones are most financially efficient at supporting your overall operations.
+
+An accounting robot sits at a nearby table, meticulously calculating the cost-benefit ratio of each sugar cube it adds to its tea, apparently treating refreshment as a business optimization problem.
+
+- #gpa_options
+
+@continue_to_energy_money
+title: Continue to Energy/Money Source and Use Check
+tags: gpa_next
+go-to: energy_money_check
+
+Me: Let's move on to the Energy/Money Source and Use Check.
+
+@reconsider_economics
+title: I want to reconsider the economics of my decision
+tags: gpa_next
+
+Me: I want to reconsider the economics of my decision.
+
+Facilyn: Wise reflection. Understanding the financial implications helps ensure your decisions support long-term sustainability.
+
+- #gpa_options
+
+@review_gpa_check
+title: Let me review this check again
+tags: gpa_next
+
+Me: Let me review this check again.
+
+- #gpa_options

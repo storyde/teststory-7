@@ -1,0 +1,123 @@
+title: Gut Feel Check
+subtitle: Values-Based Final Assessment
+new-page: true
+
+Facilyn: The gut feel check is always done last, after all other checks. It asks about your feelings, quality of life impact, and effects on others. This is where your values and intuition have the final say.
+
+Facilyn: Having worked through all the previous checks with your example, how do you feel about this decision now?
+
+What does your gut tell you about this decision?
+
+- #gut_feel_options
+
+@feels_right
+title: It feels right - I'm confident about this decision
+tags: gut_feel_options
+on-arrival: filter_gut_feel_status = "feels right"
+
+Me: It feels right - I'm confident about this decision.
+
+Facilyn: Excellent! When a decision passes the technical checks and feels right in your gut, you have strong alignment between analysis and intuition. This suggests a well-considered choice.
+
+- #gut_feel_next
+
+@feels_uncertain
+title: I feel uncertain - something doesn't seem right
+tags: gut_feel_options
+on-arrival: filter_gut_feel_status = "feels uncertain"
+
+Me: I feel uncertain - something doesn't seem right.
+
+Facilyn: Trust that feeling. Even if a decision looks good on paper, your intuition might be picking up on something the other checks missed. Take time to explore what's causing the unease.
+
+- #gut_feel_next
+
+@feels_wrong
+title: It feels wrong - I have serious doubts
+tags: gut_feel_options
+on-arrival: filter_gut_feel_status = "feels wrong"
+
+Me: It feels wrong - I have serious doubts.
+
+Facilyn: A strong signal to pause and reconsider. Your gut feeling often integrates complex factors that analytical thinking might miss. What specifically troubles you about this choice?
+
+- #gut_feel_next
+
+@mixed_feelings
+title: I have mixed feelings about it
+tags: gut_feel_options
+on-arrival: filter_gut_feel_status = "mixed feelings"
+
+Me: I have mixed feelings about it.
+
+Facilyn: Mixed feelings often reflect real trade-offs or competing values. Consider what aspects feel positive and what concerns you, then decide if the benefits outweigh the costs.
+
+- #gut_feel_next
+
+@need_clarification_gut
+title: I'm not sure how to evaluate my gut feeling
+tags: gut_feel_options
+
+Me: I'm not sure how to evaluate my gut feeling.
+
+Facilyn: Ask yourself: Does this decision align with my deepest values? Will it enhance or diminish my quality of life? How will it affect people I care about? What would happen if everyone made similar choices?
+
+Facilyn: Your gut feeling integrates all these considerations into an overall sense of rightness or wrongness. Trust what emerges when you sit quietly with the decision.
+
+A meditation robot sits peacefully in the teahouse garden, its sensors dimmed as it practices the art of simply being present - demonstrating that even artificial intelligence recognizes the value of quiet reflection.
+
+- #gut_feel_options
+
+@decision_approved
+title: My decision passes all the checks
+tags: gut_feel_next
+
+Me: My decision passes all the checks.
+
+Facilyn: Wonderful! You've thoroughly evaluated your choice against your holistic context. This gives you confidence that your decision aligns with your values and long-term vision.
+
+- #checks_complete
+
+@decision_needs_revision
+title: I need to revise my decision based on these checks
+tags: gut_feel_next
+
+Me: I need to revise my decision based on these checks.
+
+Facilyn: The checks have done their job - helping you refine your thinking before taking action. This is exactly how the framework should work, preventing costly mistakes and improving outcomes.
+
+- #checks_complete
+
+@decision_rejected
+title: I'm rejecting this decision entirely
+tags: gut_feel_next
+
+Me: I'm rejecting this decision entirely.
+
+Facilyn: Sometimes the best decision is not to act. The context checks have saved you from a choice that didn't align with your holistic context. Now you can explore better alternatives.
+
+- #checks_complete
+
+@framework_complete
+title: I understand how to use the complete framework
+tags: checks_complete
+go-to: framework_integration
+
+Me: I understand how to use the complete framework.
+
+@practice_more_examples
+title: I'd like to practice with another example
+tags: checks_complete
+go-to: example_scenario
+
+Me: I'd like to practice with another example.
+
+@review_all_checks
+title: Let me review all seven checks
+tags: checks_complete
+
+Me: Let me review all seven checks.
+
+Facilyn: The seven context checks are: Cause and Effect, three Weak Link checks (Social, Biological, Financial), Marginal Reaction, Gross Profit Analysis, Energy/Money Source and Use, Sustainability, and Gut Feel. Each helps ensure your decisions align with your holistic context.
+
+- #checks_complete

@@ -1,0 +1,242 @@
+title: Future Resource Base - Environment
+subtitle: Our Future Landscape
+new-page: true
+
+Facilyn: Now we describe how the land and environment must appear far into the future to sustain your quality of life. Even if you don't directly manage land, it's important to describe the surroundings you need.
+
+Facilyn: We'll think in terms of the four ecosystem processes: water cycle, mineral cycle, community dynamics, and energy flow.
+
+Which ecosystem process would you like to explore first?
+
+- #ecosystem_processes
+
+@water_cycle
+title: Water cycle - how water moves and is retained
+tags: ecosystem_processes
+
+Me: Water cycle - how water moves and is retained.
+
+Facilyn: How must the water cycle function in your future landscape?
+
+- #water_options
+
+@mineral_cycle
+title: Mineral cycle - how nutrients cycle through the system
+tags: ecosystem_processes
+
+Me: Mineral cycle - how nutrients cycle through the system.
+
+Facilyn: How must nutrients and minerals cycle in your future environment?
+
+- #mineral_options
+
+@community_dynamics
+title: Community dynamics - diversity and succession of life
+tags: ecosystem_processes
+
+Me: Community dynamics - diversity and succession of life.
+
+Facilyn: What kind of biological diversity and community structure do you need?
+
+- #community_options
+
+@energy_flow
+title: Energy flow - how solar energy moves through the system
+tags: ecosystem_processes
+
+Me: Energy flow - how solar energy moves through the system.
+
+Facilyn: How must energy flow be optimized in your future landscape?
+
+- #energy_options
+
+@need_clarification_ecosystem
+title: I need more clarification on ecosystem processes
+tags: ecosystem_processes
+
+Me: I need more clarification on ecosystem processes.
+
+Facilyn: Think of your future landscape many generations hence. You don't need scientific expertise - just express your need for surroundings that are stable, productive, and healthy with clean rivers and covered soils.
+
+Facilyn: Describe not as they are now, but as they must function in the future to sustain the quality of life you desire over many generations.
+
+A gardening robot tends to the plants outside the teahouse, carefully measuring soil moisture and adjusting its watering pattern with the precision of a master horticulturist.
+
+- #ecosystem_processes
+
+# Water Cycle Options
+
+@perennial_streams
+title: Streams flow perennially, clear and healthy
+tags: water_options
+on-arrival: future_water = "perennial clear streams"
+
+Me: Streams flow perennially, clear and healthy.
+
+- #ecosystem_next
+
+@effective_infiltration
+title: Effective water infiltration and groundwater recharge
+tags: water_options
+on-arrival: future_water = "effective infiltration"
+
+Me: Effective water infiltration and groundwater recharge.
+
+- #ecosystem_next
+
+@minimal_erosion
+title: Minimal erosion with water staying where it falls
+tags: water_options
+on-arrival: future_water = "minimal erosion"
+
+Me: Minimal erosion with water staying where it falls.
+
+- #ecosystem_next
+
+@clean_drinkable
+title: Water clean enough to drink from natural sources
+tags: water_options
+on-arrival: future_water = "clean drinkable water"
+
+Me: Water clean enough to drink from natural sources.
+
+- #ecosystem_next
+
+# Mineral Cycle Options
+
+@covered_soils
+title: Soils covered throughout the year, remaining where they form
+tags: mineral_options
+on-arrival: future_minerals = "covered stable soils"
+
+Me: Soils covered throughout the year, remaining where they form.
+
+- #ecosystem_next
+
+@rich_fertile
+title: Rich, fertile soils with active microbial life
+tags: mineral_options
+on-arrival: future_minerals = "rich fertile soils"
+
+Me: Rich, fertile soils with active microbial life.
+
+- #ecosystem_next
+
+@efficient_cycling
+title: Efficient nutrient cycling with minimal waste
+tags: mineral_options
+on-arrival: future_minerals = "efficient cycling"
+
+Me: Efficient nutrient cycling with minimal waste.
+
+- #ecosystem_next
+
+@carbon_sequestration
+title: Active carbon sequestration and soil building
+tags: mineral_options
+on-arrival: future_minerals = "carbon sequestration"
+
+Me: Active carbon sequestration and soil building.
+
+- #ecosystem_next
+
+# Community Dynamics Options
+
+@high_biodiversity
+title: High biological diversity across all life forms
+tags: community_options
+on-arrival: future_community = "high biodiversity"
+
+Me: High biological diversity across all life forms.
+
+- #ecosystem_next
+
+@healthy_succession
+title: Healthy succession patterns and regeneration
+tags: community_options
+on-arrival: future_community = "healthy succession"
+
+Me: Healthy succession patterns and regeneration.
+
+- #ecosystem_next
+
+@resilient_ecosystems
+title: Resilient ecosystems that recover from disturbance
+tags: community_options
+on-arrival: future_community = "resilient ecosystems"
+
+Me: Resilient ecosystems that recover from disturbance.
+
+- #ecosystem_next
+
+@balanced_populations
+title: Balanced populations without pest outbreaks
+tags: community_options
+on-arrival: future_community = "balanced populations"
+
+Me: Balanced populations without pest outbreaks.
+
+- #ecosystem_next
+
+# Energy Flow Options
+
+@optimized_photosynthesis
+title: Optimized photosynthesis with maximum plant coverage
+tags: energy_options
+on-arrival: future_energy = "optimized photosynthesis"
+
+Me: Optimized photosynthesis with maximum plant coverage.
+
+- #ecosystem_next
+
+@efficient_food_webs
+title: Efficient food webs supporting all life forms
+tags: energy_options
+on-arrival: future_energy = "efficient food webs"
+
+Me: Efficient food webs supporting all life forms.
+
+- #ecosystem_next
+
+@renewable_systems
+title: Renewable energy systems integrated naturally
+tags: energy_options
+on-arrival: future_energy = "renewable systems"
+
+Me: Renewable energy systems integrated naturally.
+
+- #ecosystem_next
+
+@productive_landscapes
+title: Productive landscapes that sustain abundance
+tags: energy_options
+on-arrival: future_energy = "productive landscapes"
+
+Me: Productive landscapes that sustain abundance.
+
+- #ecosystem_next
+
+@complete_context
+title: My holistic context is now complete
+tags: ecosystem_next
+
+Me: My holistic context is now complete.
+
+Facilyn: Excellent. You now have a complete holistic context - your whole, quality of life statement, and future resource base description. This foundation will guide all your future decisions.
+
+- #context_complete
+
+@continue_to_checks
+title: Continue to the Seven Context Checks
+tags: context_complete
+go-to: context_checks_intro
+
+Me: Let's learn about the Seven Context Checks.
+
+@review_environment
+title: Review my environmental choices
+tags: ecosystem_next
+
+Me: I'd like to review my environmental choices.
+
+- #ecosystem_processes

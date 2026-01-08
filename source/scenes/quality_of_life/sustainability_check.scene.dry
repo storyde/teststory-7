@@ -1,0 +1,105 @@
+title: Sustainability Check
+subtitle: Long-term Thinking
+new-page: true
+
+Facilyn: The sustainability check asks: "Will this action lead toward or away from our future resource base?" This connects your decision directly to the holistic context you've created.
+
+Facilyn: Think about the future resource base you described - both the behaviors needed from people and the environmental conditions required. Does your example decision support or undermine these?
+
+How does your decision align with your future resource base?
+
+- #sustainability_options
+
+@strongly_supports
+title: It strongly supports our future resource base
+tags: sustainability_options
+on-arrival: filter_sustainability_status = "strongly supports"
+
+Me: It strongly supports our future resource base.
+
+Facilyn: Excellent alignment! Your decision actively moves you toward the future you've envisioned, strengthening both the relationships and environmental conditions you need.
+
+- #sustainability_next
+
+@generally_supports
+title: It generally supports our future resource base
+tags: sustainability_options
+on-arrival: filter_sustainability_status = "generally supports"
+
+Me: It generally supports our future resource base.
+
+Facilyn: Good alignment. While not perfect, your decision moves in the right direction toward your desired future.
+
+- #sustainability_next
+
+@neutral_impact
+title: It has neutral impact on our future resource base
+tags: sustainability_options
+on-arrival: filter_sustainability_status = "neutral impact"
+
+Me: It has neutral impact on our future resource base.
+
+Facilyn: Neither helping nor hindering. While not problematic, consider whether there might be alternative actions that more actively support your long-term vision.
+
+- #sustainability_next
+
+@somewhat_undermines
+title: It somewhat undermines our future resource base
+tags: sustainability_options
+on-arrival: filter_sustainability_status = "somewhat undermines"
+
+Me: It somewhat undermines our future resource base.
+
+Facilyn: A concerning assessment. Consider how you might modify this action to better align with your long-term vision, or whether the short-term benefits justify the long-term costs.
+
+- #sustainability_next
+
+@strongly_undermines
+title: It strongly undermines our future resource base
+tags: sustainability_options
+on-arrival: filter_sustainability_status = "strongly undermines"
+
+Me: It strongly undermines our future resource base.
+
+Facilyn: A significant red flag. This suggests your decision conflicts with your fundamental long-term goals. Serious reconsideration is warranted unless there are compelling overriding factors.
+
+- #sustainability_next
+
+@need_clarification_sus
+title: I need help connecting this to my resource base
+tags: sustainability_options
+
+Me: I need help connecting this to my resource base.
+
+Facilyn: Review what you described for your future resource base. For people: will this action demonstrate the behaviors that maintain their support? For environment: will it contribute to the ecological conditions you need?
+
+Facilyn: Think many generations ahead. If everyone made similar decisions, would it create the world you want to live in?
+
+A conservation robot carefully plants native seedlings in the teahouse courtyard, each placement calculated to support the local ecosystem's long-term health - embodying the kind of generational thinking this check encourages.
+
+- #sustainability_options
+
+@continue_to_gut_feel
+title: Continue to Gut Feel Check
+tags: sustainability_next
+go-to: gut_feel_check
+
+Me: Let's move on to the final Gut Feel Check.
+
+@reconsider_sustainability
+title: I want to reconsider the sustainability implications
+tags: sustainability_next
+
+Me: I want to reconsider the sustainability implications.
+
+Facilyn: Wise reflection. Sustainability thinking helps ensure your decisions create the future you actually want to live in.
+
+- #sustainability_options
+
+@review_sustainability_check
+title: Let me review this check again
+tags: sustainability_next
+
+Me: Let me review this check again.
+
+- #sustainability_options

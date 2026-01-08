@@ -1,0 +1,184 @@
+title: Future Resource Base - People
+subtitle: How We Must Behave
+new-page: true
+
+Facilyn: Now we describe how you must behave to ensure the support of those in your resource base - customers, clients, suppliers, extended family, and others whose support you need.
+
+Facilyn: Think from their point of view. What behaviors would make them want to continue supporting you?
+
+Which area of behavior would you like to focus on first?
+
+- #behavior_categories
+
+@communication_behaviors
+title: Communication behaviors
+tags: behavior_categories
+
+Me: Communication behaviors.
+
+Facilyn: How must you communicate to maintain their support and trust?
+
+- #communication_options
+
+@collaboration_behaviors
+title: Collaboration behaviors
+tags: behavior_categories
+
+Me: Collaboration behaviors.
+
+Facilyn: How must you work together with others to ensure their continued support?
+
+- #collaboration_options
+
+@personal_qualities
+title: Personal qualities and character
+tags: behavior_categories
+
+Me: Personal qualities and character.
+
+Facilyn: What personal qualities must you demonstrate to earn and maintain their trust?
+
+- #personal_options
+
+@need_clarification_behavior
+title: I need more clarification on this approach
+tags: behavior_categories
+
+Me: I need more clarification on this approach.
+
+Facilyn: Consider each group in your resource base separately. For clients whose loyalty you want to maintain, you might need to be honest, professional, prompt, reliable, producing quality work, environmentally responsible.
+
+Facilyn: The key is thinking from their perspective - what would make them want to continue their relationship with you?
+
+A maintenance robot methodically polishes the teahouse windows, pausing occasionally to admire its own reflection with what appears to be genuine satisfaction.
+
+- #behavior_categories
+
+# Communication Behaviors
+
+@honest_transparent
+title: Honest and transparent in all communications
+tags: communication_options
+on-arrival: behavior_communication = "honest and transparent"
+
+Me: Honest and transparent in all communications.
+
+- #behavior_next
+
+@clear_timely
+title: Clear, timely, and responsive
+tags: communication_options
+on-arrival: behavior_communication = "clear and responsive"
+
+Me: Clear, timely, and responsive.
+
+- #behavior_next
+
+@respectful_listening
+title: Respectful listeners who value input
+tags: communication_options
+on-arrival: behavior_communication = "respectful listeners"
+
+Me: Respectful listeners who value input.
+
+- #behavior_next
+
+@proactive_informative
+title: Proactive in sharing relevant information
+tags: communication_options
+on-arrival: behavior_communication = "proactive and informative"
+
+Me: Proactive in sharing relevant information.
+
+- #behavior_next
+
+# Collaboration Behaviors
+
+@reliable_dependable
+title: Reliable and dependable partners
+tags: collaboration_options
+on-arrival: behavior_collaboration = "reliable partners"
+
+Me: Reliable and dependable partners.
+
+- #behavior_next
+
+@flexible_adaptive
+title: Flexible and adaptive to changing needs
+tags: collaboration_options
+on-arrival: behavior_collaboration = "flexible and adaptive"
+
+Me: Flexible and adaptive to changing needs.
+
+- #behavior_next
+
+@supportive_helpful
+title: Supportive and helpful in achieving mutual goals
+tags: collaboration_options
+on-arrival: behavior_collaboration = "supportive and helpful"
+
+Me: Supportive and helpful in achieving mutual goals.
+
+- #behavior_next
+
+@fair_equitable
+title: Fair and equitable in all dealings
+tags: collaboration_options
+on-arrival: behavior_collaboration = "fair and equitable"
+
+Me: Fair and equitable in all dealings.
+
+- #behavior_next
+
+# Personal Qualities
+
+@professional_competent
+title: Professional and competent in our work
+tags: personal_options
+on-arrival: behavior_personal = "professional and competent"
+
+Me: Professional and competent in our work.
+
+- #behavior_next
+
+@ethical_responsible
+title: Ethical and environmentally responsible
+tags: personal_options
+on-arrival: behavior_personal = "ethical and responsible"
+
+Me: Ethical and environmentally responsible.
+
+- #behavior_next
+
+@innovative_creative
+title: Innovative and creative problem-solvers
+tags: personal_options
+on-arrival: behavior_personal = "innovative and creative"
+
+Me: Innovative and creative problem-solvers.
+
+- #behavior_next
+
+@committed_dedicated
+title: Committed and dedicated to excellence
+tags: personal_options
+on-arrival: behavior_personal = "committed to excellence"
+
+Me: Committed and dedicated to excellence.
+
+- #behavior_next
+
+@continue_to_environment
+title: Continue to Future Resource Base - Environment
+tags: behavior_next
+go-to: future_resource_base_environment
+
+Me: Let's move on to the Future Resource Base - Environment.
+
+@review_behaviors
+title: Review my behavior choices
+tags: behavior_next
+
+Me: I'd like to review my behavior choices.
+
+- #behavior_categories

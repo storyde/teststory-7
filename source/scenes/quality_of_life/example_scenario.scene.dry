@@ -1,0 +1,137 @@
+title: Think of an Example
+subtitle: A Decision You Need to Make
+new-page: true
+
+Facilyn: Before we explore the seven context checks, let's think of a real decision you're facing. This will help you understand how to apply the framework practically.
+
+Facilyn: What kind of decision or challenge would you like to work through?
+
+- #example_types
+
+@business_decision
+title: A business or work-related decision
+tags: example_types
+on-arrival: example_type = "business decision"
+
+Me: A business or work-related decision.
+
+Facilyn: Good. Think of a specific choice you need to make - perhaps about a new project, investment, partnership, or strategy change.
+
+- #example_details
+
+@personal_decision
+title: A personal or family decision
+tags: example_types
+on-arrival: example_type = "personal decision"
+
+Me: A personal or family decision.
+
+Facilyn: Excellent. Consider a choice about lifestyle, relationships, education, health, or how you spend your time and resources.
+
+- #example_details
+
+@community_decision
+title: A community or organizational decision
+tags: example_types
+on-arrival: example_type = "community decision"
+
+Me: A community or organizational decision.
+
+Facilyn: Perfect. Think about a decision involving your community, organization, or group - perhaps about policies, projects, or resource allocation.
+
+- #example_details
+
+@environmental_decision
+title: An environmental or land management decision
+tags: example_types
+on-arrival: example_type = "environmental decision"
+
+Me: An environmental or land management decision.
+
+Facilyn: Wonderful. Consider choices about land use, conservation, sustainability practices, or environmental impact.
+
+- #example_details
+
+@need_help_choosing
+title: I need help thinking of an example
+tags: example_types
+
+Me: I need help thinking of an example.
+
+Facilyn: Think of any situation where you have multiple options and need to choose the best path forward. It could be as simple as "Should I start a garden?" or as complex as "Should we expand our business?"
+
+Facilyn: The key is choosing something real that matters to you, so you can see how the context checks provide practical guidance.
+
+A delivery robot pauses outside the teahouse, apparently consulting its internal GPS while a small bird perches curiously on its antenna, creating an unlikely partnership in navigation.
+
+- #example_types
+
+@simple_example
+title: Should I start a garden?
+tags: example_details
+on-arrival: example_scenario = "starting a garden"
+
+Me: Should I start a garden?
+
+Facilyn: A perfect example! Growing your own food connects to economic well-being, environmental health, and personal satisfaction. We'll use this to explore each context check.
+
+- #example_ready
+
+@business_expansion
+title: Should we expand our business?
+tags: example_details
+on-arrival: example_scenario = "business expansion"
+
+Me: Should we expand our business?
+
+Facilyn: An excellent choice! Business expansion touches on economic factors, relationships with stakeholders, resource management, and long-term sustainability. Perfect for testing against your holistic context.
+
+- #example_ready
+
+@career_change
+title: Should I change careers?
+tags: example_details
+on-arrival: example_scenario = "career change"
+
+Me: Should I change careers?
+
+Facilyn: A meaningful example! Career decisions affect your quality of life, relationships, economic well-being, and personal growth. This will demonstrate how the context checks guide major life choices.
+
+- #example_ready
+
+@technology_adoption
+title: Should we adopt new technology?
+tags: example_details
+on-arrival: example_scenario = "technology adoption"
+
+Me: Should we adopt new technology?
+
+Facilyn: A relevant modern example! Technology decisions impact efficiency, costs, relationships, and long-term sustainability. We'll see how your holistic context helps evaluate such choices.
+
+- #example_ready
+
+@custom_example
+title: I have my own specific example in mind
+tags: example_details
+on-arrival: example_scenario = "custom example"
+
+Me: I have my own specific example in mind.
+
+Facilyn: Perfect! Keep that decision clearly in mind as we work through the seven context checks. You'll see how each check helps you evaluate your choice against your holistic context.
+
+- #example_ready
+
+@ready_for_checks
+title: I'm ready to learn the context checks
+tags: example_ready
+go-to: cause_effect_check
+
+Me: I'm ready to learn the context checks.
+
+@think_more_examples
+title: Let me think of a different example
+tags: example_ready
+
+Me: Let me think of a different example.
+
+- #example_types

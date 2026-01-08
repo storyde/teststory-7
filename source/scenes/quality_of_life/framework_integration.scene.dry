@@ -1,0 +1,121 @@
+title: Framework Review and Completion
+subtitle: Your Holistic Management Journey
+new-page: true
+
+Facilyn: Congratulations! You've now experienced the complete Holistic Management framework. You've defined your whole, created your quality of life statement, described your future resource base, and learned to apply all seven context checks.
+
+Facilyn: This framework will serve you well, but remember - it's a living system that grows with you.
+
+What would you like to focus on as you complete this learning journey?
+
+- #completion_options
+
+@review_complete_context
+title: Review my complete holistic context
+tags: completion_options
+
+Me: Review my complete holistic context.
+
+Facilyn: Your holistic context includes your whole under management, your quality of life statement covering economic well-being, relationships, challenge and growth, and purpose and contribution, plus your future resource base describing needed behaviors and environmental conditions.
+
+Facilyn: This context now serves as your decision-making foundation. Every choice you make can be evaluated against these elements to ensure alignment with your deepest values and long-term vision.
+
+- #next_steps
+
+@understand_plan_monitor_cycle
+title: Learn about the Plan-Monitor-Control-Replan cycle
+tags: completion_options
+
+Me: Learn about the Plan-Monitor-Control-Replan cycle.
+
+Facilyn: Holistic Management is cyclical. You Plan using your context and the seven checks, Monitor the results of your actions, Control by making adjustments when needed, and Replan based on what you've learned. This cycle ensures continuous improvement and adaptation.
+
+Facilyn: Your holistic context itself should be reviewed and refined regularly as circumstances change and you gain new insights.
+
+- #next_steps
+
+@explore_application_areas
+title: Explore how to apply this in different areas of life
+tags: completion_options
+
+Me: Explore how to apply this in different areas of life.
+
+Facilyn: This framework applies to personal decisions, family choices, business strategy, community planning, and environmental management. The same principles work whether you're choosing a career, managing a farm, running an organization, or planning a community project.
+
+Facilyn: The key is always starting with your holistic context and using the seven checks to evaluate your options.
+
+- #next_steps
+
+@need_resources
+title: I need resources for continued learning
+tags: completion_options
+
+Me: I need resources for continued learning.
+
+Facilyn: The Savory Institute offers extensive resources, training programs, and a global community of practitioners. Local Holistic Management groups exist in many regions. Books, online courses, and workshops can deepen your understanding.
+
+Facilyn: Most importantly, practice using the framework regularly. Start with small decisions and work up to larger ones as you become more comfortable with the process.
+
+A librarian robot wheels by carrying a stack of books on sustainable systems, apparently on its way to update the teahouse's resource collection with the latest thinking on regenerative practices.
+
+- #next_steps
+
+@ready_to_practice
+title: I'm ready to start practicing this framework
+tags: next_steps
+
+Me: I'm ready to start practicing this framework.
+
+Facilyn: Excellent! Remember, mastery comes through practice. Start by using the seven context checks on decisions you're currently facing. Keep your holistic context visible and refer to it regularly.
+
+Facilyn: Trust the process, but also trust yourself. The framework is a tool to support your wisdom, not replace it.
+
+- #final_choices
+
+@want_more_practice
+title: I'd like more practice with examples
+tags: next_steps
+go-to: example_scenario
+
+Me: I'd like more practice with examples.
+
+@share_with_others
+title: I want to share this with my family/organization
+tags: next_steps
+
+Me: I want to share this with my family/organization.
+
+Facilyn: Wonderful! Holistic Management works best when decision makers create their context together. Consider facilitating a session where everyone contributes to defining your collective whole, quality of life, and future resource base.
+
+Facilyn: The framework becomes more powerful when shared, as it creates common language and shared vision for decision-making.
+
+- #final_choices
+
+@return_to_teahouse
+title: I may return to learn more another time
+tags: final_choices
+go-to: credits
+
+Me: I may return to learn more another time.
+
+Facilyn: The teahouse will always be here when you need it. Learning is a lifelong journey, and there's always more to discover about making decisions that create the world we want to live in.
+
+@complete_journey
+title: My learning journey is complete for now
+tags: final_choices
+go-to: credits
+
+Me: My learning journey is complete for now.
+
+Facilyn: You've gained powerful tools for creating positive change. Use them wisely, share them generously, and remember that every decision is an opportunity to move toward the future you envision.
+
+Facilyn: Thank you for joining me in this exploration. May your choices create the world you want to live in.
+
+@start_over
+title: I'd like to start the framework from the beginning
+tags: final_choices
+go-to: intro
+
+Me: I'd like to start the framework from the beginning.
+
+Facilyn: A fresh start can deepen understanding. Each time through the framework reveals new insights and possibilities.

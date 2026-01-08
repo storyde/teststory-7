@@ -1,0 +1,37 @@
+title: Progress
+subtitle: Your game progress
+
+# This scene contains information for the left sidebar.
+
+= Background information
+
+[? if player_background = "individual" : I am here by myself ?]
+[? if player_background = "group" : I am here with my family or friens ?]
+[? if player_background = "organization" : I am here as part of an organization ?]
+
+= My Holistic Context
+
+[? if context_progress < 1 : *Building your holistic context...* ?]
+[? if context_progress >= 7 : This holistic context guides all your decisions. ?]
+[? if context_progress >= 1 and context_progress < 7 : *Developing your holistic context...* ?]
+
+**Statement of Purpose**
+
+
+**Whole Under Management**
+
+[? if part_of = "individual" : Myself and my personal impact on the world ?]
+[? if part_of = "group" : My family and the environment that sustains us ?]
+[? if part_of = "organisation" : My organization and all who depend on it ?]
+
+**Quality of Life We Seek**
+
+**Resource Base**
+
+
+**Future Resource Base Conditions**
+
+**Behaviors for Social Support**
+
+
+= Filter Questions
