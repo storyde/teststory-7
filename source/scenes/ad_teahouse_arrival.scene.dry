@@ -42,10 +42,9 @@ Me: So, what have you been up to?
 
 Facilyn: I was traveling a lot since the last time we saw each other. And in most places, what I saw was the same: Good meaning people trying their best, and yet the problems were getting more, not less.
 
-Facilyn: The polycrisis isn't just happening to us. It's the result of how we've been making decisions for centuries.
+Facilyn: The polycrisis isn't just happening to us. It's the result of how we've been managing for centuries.
 
 - #human-made
-
 
 @how_decisionmaking_past
 title: How is that?
@@ -65,11 +64,15 @@ tags: human-made
 
 Me: That's a bold statement, don’t you think?
 
-Facilyn: Sure, but we didn't set out to create the polycrisis. We made thousands of individual decisions that made sense at the time, but we failed to look at the whole picture.
+Facilyn: Sure, but we didn't set out to create the polycrisis. It happens while we are trying to make our lives better.
 
 She picks up the plastic packaging from her teabag.
 
 Facilyn: Someone invented this packaging to preserve the tea's aroma. Good intention and very usefull. But they didn't take into account what happens to billions of plastic packages, how they interact with ocean systems or how microplastics affects human and animal health.
+
+Facilyn: We make thousands of management decisions, but we fail to look at the whole picture.
+
+- #human-made
 
 @three_complex_systems
 title: Are you sure it's only three?
@@ -77,17 +80,17 @@ tags: three-areas
 
 Me: Are you sure it's only three?
 
-Facilyn: Yes. We produce millions of things but we actually manage only three areas: society, economy and nature. 
+Facilyn: Well, we produce millions of things, but we actually manage only three areas: society, economy and nature. 
 
-Facilyn: Society we manage on a human level, wich means our personal lifes and our family, as well as on an organisational level to manage at scale. Through that, we manage our economy, and then nature.
+Facilyn: Society we manage on a human level, wich means our personal life and our family, as well as on an organisational level to manage at scale. Through that, we manage our economy, and then nature.
 
-- #start-frmwrk
+- #how-complexity
 
 @found_better_way
-title: And did you find a better way to make decisions?
+title: And did you find a better way to manage?
 tags: human-made
 
-Me: And did you find a better way to make decisions?
+Me: And did you find a better way to manage?
 
 She fills some cups with tea.
 
@@ -131,11 +134,11 @@ Facilyn: Living systems don't function in parts and connections, but in wholes a
 
 Facilyn: Most of our problems come from trying to manage complex systems as if they were complicated machines.
 
-- #what-complexity
+- #how-complexity
 
-@managing_complexity
+@how_mng_complexity
 title: So, how do you manage complexity?
-tags: what-complexity
+tags: how-complexity
 
 Me: So, how do you manage complexity?
 

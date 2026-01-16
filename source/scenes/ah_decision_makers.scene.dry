@@ -1,21 +1,20 @@
-title: Decision Makers
+title: Decision Makers 
 view-if: part_of = "individual"
 
+Facilyn: This framework works best when everyone who's making decisions in your household is involved in this conversation. 
 
+Facilyn: So, do you live together with other people? And are there any other people with veto power over your decisions? Try to be inclusive rather than exclusive. 
 
-
-
-
-
+- #decision_makers
 
 title: Decision Makers
 view-if: part_of = "group"
 
+Facilyn: This framework works best when everyone who's making decisions in your group is involved in this conversation. So, let's make sure you get the right people to the table.
 
+Facilyn: In you group, who is making decisions, who is expected to carry out these decisions, and are there any other people with veto power over your decisions? Try to be inclusive rather than exclusive. 
 
-
-
-
+- #decision_makers
 
 title: Getting Everyone Involved
 subtitle: Bringing Stakeholders to the Table
@@ -35,7 +34,7 @@ Me: Why Involve Everyone?
 
 Facilyn: To leave out affected parties often creates unintended consequences. You risk that the context you will create becomes one-sided or meaningless to people who were not involved in this process. 
 
-In front of the teahouse, a post robot rolls by, apparently trying to deliver mail to a fire hydrant. It's been at this for hours, convinced the hydrant is a very quiet resident.
+In front of the teahouse, a post robot rolls by, apparently trying to deliver mail to a fire hydrant. It's going at this for minutes, convinced the hydrant is a very quiet resident.
 
 - #decision_makers
 
