@@ -1,26 +1,18 @@
 title: Credits
-new-page: true
+subtitle: View credits and inspirations
+is-special: true
 
-Test story
+Managing complexity
 
-Developed using dendry by Ian D. Millington, with modifications by Aucchen
+Developed using Dendry by Ian D. Millington, with modifications by Aucchen and by us.
 
 Thank *you* for playing!
 
-- @inspirations: Inspirations and related works
-- @back_to_start: Go back to Start
-- @game_over: End game
+- @inspirations
 
 @inspirations
+title: Inspirations and related works
 
-Inspirations for test game.
+Inspirations for this game:
 
-- @back_to_start: Start game.
-- @game_over: End game.
-
-
-@game_over
-game-over: true
-
-@back_to_start
-go-to: root
+This game is inspired by a framework to manage complexity.

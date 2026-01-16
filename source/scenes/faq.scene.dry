@@ -1,18 +1,8 @@
-title: Is this human-made?
-subtitle: Understanding our role in the polycrisis
-tags: faq, polycrisis
+title: FAQ
+subtitle: Frequently asked questions
+is-special: true
+tags: info
 
-Facilyn: Human-made? Well, not intentionally. But yes, the unintended consequenses of our decisions are getting us in trouble.
+= Frequently asked questions
 
-She gestures at the struggling infrastructure of the city.
-
-Facilyn: We built everything to be efficient, not resilient. Cheap, not sustainable. To solve symptoms, not the underlying problems. 
-Each decision made sense at the time, but nobody was looking at the whole picture.
-
-Facilyn: The polycrisis isn't just happening to us. It's the result of how we've been making decisions for centuries.
-
-- @solutions: "So what's the solution?"
-
-@solutions
-
-Facilyn: That's exactly what I teach. The solution isn't to fix each problem separately, but to change how we make decisions in the first place.
+- #faq

@@ -16,7 +16,7 @@ Nearby, someone mutters something about the polycrisis...
 
 - #harbour
 
-@poly_what  
+@the_stranger  
 title: The poly-what?  
 subtitle: Isn’t a normal crisis bad enough already?  
 view-if: poly-what = 1
@@ -29,12 +29,12 @@ The stranger eyes you, amused.
 Stranger: The polycrisis is when social, economic, and environmental challenges stop lining up one by one... and start crashing down together.  
 
 - @stranger_teahouse_directions
-- @vendor_scene: Buy water from a vendor
-- @info_screen: Read the info-screen  
+- @vendor_scene 
+- @info_screen  
 
 @stranger_teahouse_directions
 title: Ask for directions to the teahouse
-on-arrival: know_sidestreet = 1 
+on-arrival: know-sidestreet = 1 
 
 Me: Hey, before you go, could you tell me how to get to the teahouse?
 
@@ -69,19 +69,18 @@ A vendor waves a cracked purifier bottle at you.
 
 Vendor: One sip for a coin. Or keep walking thirsty.  
 
-- @pay_vendor: Hand over your last crypto  
-- @haggle_vendor: Haggle with the vendor. 
+- @pay_vendor
+- @haggle_vendor
 
 @pay_vendor  
-title: Metallic Sip  
-subtitle: Last coin spent  
+title: Hand over some crypto 
 
-You hand over your last bit of crypto. The water tastes metallic, but eases your throat.  
+You hand over some crypto. The water tastes metallic, but eases your throat.  
 
 - @vendor_teahouse_directions
 
 @haggle_vendor  
-title: Negotiation  
+title: Haggle with the vendor
 
 Me: That’s robbery. Half a coin.  
 
@@ -94,7 +93,7 @@ The water is thin but cool. Enough to ease your tongue.
 
 @vendor_teahouse_directions
 title: Ask for the teahouse
-on-arrival: know_sidestreet = 1 
+on-arrival: know-sidestreet = 1 
 
 Me: Do you know where the teahouse is?
 
@@ -131,7 +130,7 @@ It’s a quiet reminder: Without functioning agriculture, most organizations wou
 
 @people_teahouse_directions
 title: Ask them where the teahouse is
-on-arrival: know_sidestreet = 1 
+on-arrival: know-sidestreet = 1 
 
 Me: Do you know where the teahouse is?
 
@@ -142,7 +141,7 @@ Drawer: Follow the red banners. You can’t miss it.
 
 @side-street
 title: Head to the teahouse
-view-if: know_sidestreet = 1 
+view-if: know-sidestreet = 1 
 tags: harbour
 
 You stumble through the side street, dust stinging your face. 

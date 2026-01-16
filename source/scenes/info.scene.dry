@@ -5,4 +5,10 @@ new-page: true
 
 = Knowledge
 
-- #faq
+- #info
+
+
+@back_to_start
+title: Go back to Start
+tags: info
+go-to: root

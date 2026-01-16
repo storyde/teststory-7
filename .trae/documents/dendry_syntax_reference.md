@@ -220,9 +220,9 @@ Me: Thank you for having me here.
 Common speakers:
 - Facilyn (The Guide)
 - Me (The Player)
-- Stranger (Plaza NPC)
-- Vendor (Plaza NPC)
-- Drawer (Plaza NPC)
+- Stranger (Harbour NPC)
+- Vendor (Harbour NPC)
+- Drawer (Harbour NPC)
 
 Note: This format helps maintain clarity and consistency throughout the narrative while making it easy to identify who is speaking.
 
