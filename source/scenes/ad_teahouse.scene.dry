@@ -10,33 +10,33 @@ Facilyn: It’s been a while. I wondered if you’d really come.
 
 Her smile softens the sharp edge of the storm outside.  
 
-- #what-up-to
+- #what_up_to
 
 @took_me_forever
 title: Took me forever to find this place
-view-if: part_of = "individual"
-tags: what-up-to
+view-if: part-of = "individual"
+tags: what_up_to
 
 Me: Took me forever to find this place. Thought I’d be wandering alleys forever.
 
 Facilyn: That’s the city for you. It hides its good corners.
 
-- #what-up-to
+- #what_up_to
 
 @took_us_forever
 title: Took us forever to find this place
-view-if: part_of != "individual"
-tags: what-up-to
+view-if: part-of != "individual"
+tags: what_up_to
 
 Me: Took us forever to find this place. Thought we’d be wandering alleys forever.
 
 Facilyn: That’s the city for you. It hides its good corners.
 
-- #what-up-to
+- #what_up_to
 
 @what_up_to
 title: Ask what she has been up to
-tags: what-up-to
+tags: what_up_to
 
 Me: So, what have you been up to?
 
@@ -44,11 +44,11 @@ Facilyn: I was traveling a lot since the last time we saw each other. And in mos
 
 Facilyn: The polycrisis isn't just happening to us. It's the result of how we've been managing for centuries.
 
-- #human-made
+- #human_made
 
 @how_decisionmaking_past
 title: How is that?
-tags: human-made
+tags: human_made
 
 Me: How is that?
 
@@ -56,11 +56,11 @@ Facilyn: We make almost all of our consious decisions to meet a need, a desire o
 
 Facilyn: But when it comes to managing the three complex areas of our lives, such a context is overly reductionist. Therefore, we will create a holistic context in the framework I'm about to walk you through.
 
-- #three-areas
+- #three_areas
 
 @bold_statement
 title: That's a bold statement, don’t you think?
-tags: human-made
+tags: human_made
 
 Me: That's a bold statement, don’t you think?
 
@@ -72,11 +72,11 @@ Facilyn: Someone invented this packaging to preserve the tea's aroma. Good inten
 
 Facilyn: We make thousands of management decisions, but we fail to look at the whole picture.
 
-- #human-made
+- #human_made
 
 @three_complex_systems
 title: Are you sure it's only three?
-tags: three-areas
+tags: three_areas
 
 Me: Are you sure it's only three?
 
@@ -84,11 +84,11 @@ Facilyn: Well, we produce millions of things, but we actually manage only three 
 
 Facilyn: Society we manage on a human level, wich means our personal life and our family, as well as on an organisational level to manage at scale. Through that, we manage our economy, and then nature.
 
-- #how-complexity
+- #how_complexity
 
 @found_better_way
 title: And did you find a better way to manage?
-tags: human-made
+tags: human_made
 
 Me: And did you find a better way to manage?
 
@@ -97,11 +97,11 @@ She fills some cups with tea.
 Facilyn: I was given the chance to work with others — people from all kinds of backgrounds — digging deeper into the issue. We were brought together by one very determined individual. 
 When we finally broke through, we created a framework that helps managing complexity.
 
-- #better-way
+- #better_way
 
 @what_complexity
 title: What do you mean by "complexity"?
-tags: three-areas, better-way
+tags: three_areas, better_way
 
 Facilyn: First, let's look at a complicated system. It functions in parts and connections. And if it breaks, you can stop it, repair it and start it up again. It does not have a live of it's own. 
 Complicated things have many parts, but they're predictable. Like the hardware of the drones outside — if you know all the parts and how they work, you can fix it.
@@ -134,14 +134,14 @@ Facilyn: Living systems don't function in parts and connections, but in wholes a
 
 Facilyn: Most of our problems come from trying to manage complex systems as if they were complicated machines.
 
-- #how-complexity
+- #how_complexity
 
 @how_mng_complexity
 title: So, how do you manage complexity?
-tags: how-complexity
+tags: how_complexity
 
 Me: So, how do you manage complexity?
 
 Facilyn: You manage it by not loosing sight of the whole under your management. And by filtering your management decisions against your holistic context. To help with that, we developed this framework. Let me walk you through it.
 
-- #start-frmwrk
+- #start_frmwrk

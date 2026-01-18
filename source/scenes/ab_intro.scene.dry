@@ -19,14 +19,14 @@ You came here:
 @by_yourself
 title: On my own 
 subtitle: Currently without company
-on-arrival: part_of = "individual"
+on-arrival: part-of = "individual"
 go-to: find_teahouse
 
 Me: On my own. My friend invited me to learn about a new management framework.
 
 @with_group
 title: With family or friends
-on-arrival: part_of = "group"
+on-arrival: part-of = "group"
 go-to: find_teahouse
 
 Me: As a group. Our friend invited us to learn about a new management framework.
@@ -34,7 +34,7 @@ Me: As a group. Our friend invited us to learn about a new management framework.
 @for_organization
 title: On behalf of your organisation
 subtitle: Or with your colleagues
-on-arrival: part_of = "organisation"
+on-arrival: part-of = "org"
 go-to: find_teahouse
 
 Me: On behalf of our organisation. Our friend invited us to learn about a new management framework.

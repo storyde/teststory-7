@@ -141,7 +141,7 @@ Add this scene to the choices by giving it the tag tag_name
 
 #### Organization
 
-* `tags: tag1, tag2` - Group scenes by tags
+* `tags: tag_one, tag_two` - Group scenes by tags
 
 * `order: 10` - Display order for tagged scenes
 
@@ -418,9 +418,10 @@ first-scene: starting_scene
 * String values in quotes: `name = "John"`
 
 **Naming Convention for Quality Variables**
-To make quality variables easily distinguishable from scene names in your code:
+To make quality variables easily distinguishable from scene names and tag names in your code:
 - Use hyphens (-) for quality names: `player-health`, `magic-power`
 - Use underscores (_) for scene names: `forest_entrance`, `castle_gate`
+- Use underscores (_) for tag names: `the_forest`, `the_castle`
 
 This consistent naming pattern helps prevent confusion and makes code more readable.
 

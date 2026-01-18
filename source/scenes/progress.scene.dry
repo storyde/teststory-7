@@ -5,9 +5,9 @@ subtitle: Your game progress
 
 = Background information
 
-[? if player_background = "individual" : I am here by myself ?]
-[? if player_background = "group" : I am here with my family or friends ?]
-[? if player_background = "organization" : I am here as part of an organization ?]
+[? if part-of = "individual" : I am here by myself ?]
+[? if part-of = "group" : I am here with my family or friends ?]
+[? if part-of = "org" : I am here as part of an organisation ?]
 
 = My Holistic Context
 
@@ -20,9 +20,9 @@ subtitle: Your game progress
 
 **Whole Under Management**
 
-[? if part_of = "individual" : Myself ?]
-[? if part_of = "group" : My family or friends ?]
-[? if part_of = "organisation" : My organization ?]
+[? if part-of = "individual" : Myself ?]
+[? if part-of = "group" : My family or friends ?]
+[? if part-of = "org" : My organisation ?]
 
 **Quality of Life We Seek**
 
