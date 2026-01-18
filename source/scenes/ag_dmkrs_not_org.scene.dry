@@ -4,7 +4,7 @@ tags: whole_u_mgmt
 
 Me: Got it.
 
-Facilyn: Let's start with the decisionmakers. Do you want to focus on yourself for now? Or shall we expand the "whole" a little bit and include anyone you live together with, or any other person with veto power over your decisions? 
+Facilyn: Let's start with the decisionmakers. Do you want to focus on yourself for now? Or shall we expand the "whole" a little bit and include anyone you live or decide together with or who has veto power over your decisions? 
 
 - #decision_makers
 
@@ -37,19 +37,32 @@ tags: whole_u_mgmt
 
 Me: Got it.
 
-Facilyn: Let's start with the decisionmakers. In your group, who is making decisions, who is expected to carry out these decisions, and are there any other people with veto power over your decisions? Try to be inclusive rather than exclusive. 
+Facilyn: Let's start with the decisionmakers. In your group, who is making decisions? Who is expected to carry out these decisions and are there any other people with veto power over your decisions? Try to be inclusive rather than exclusive. 
 
 - #decision_makers
 
 # Group
 
 @dmkrs_group_all
-title: Our group and others with veto power
+title: The whole group 
+subtitle: And the poeple with veto power
 view-if: part-of = "group"
 tags: decision_makers
 on-arrival: decision_makers = "Group members and others with veto power"
-go-to: ai_physical_resources
+go-to: physical_resources
 
 Me: Let's include everyone in our group and anyone with veto power over our decisions.
 
 Facilyn: Good. That gives us the decision makers for your whole under management.
+
+@why_involve_everyone
+title: Why Involve Everyone?
+tags: decision_makers
+
+Me: Why Involve Everyone?
+
+Facilyn: To leave out affected parties often creates unintended consequences. You risk that the holistic context you will create becomes one-sided or meaningless to people who were not involved in this process. 
+
+In front of the teahouse, a post robot rolls by, apparently trying to deliver mail to a fire hydrant. It's going at this for minutes, convinced the hydrant is a very quiet resident.
+
+- #decision_makers

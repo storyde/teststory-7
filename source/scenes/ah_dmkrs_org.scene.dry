@@ -1,237 +1,256 @@
-title: Getting Everyone Involved
-view-if: part-of = "org"
-
-@define_dmkrs_org
 title: Define decisionmakers
 view-if: part-of = "org"
 
-Facilyn: In your organisation, who is making decisions, who is expected to carry out these decisions, and are there any other people with veto power over your decisions? Try to be inclusive rather than exclusive. 
+Facilyn: Alright, and who is making or expected to carry out decisions in your organisation? And are there any other people with veto power over your decisions? Try to be inclusive rather than exclusive. 
 
 - #decision_makers
-
-@why_involve_everyone
-title: Why Involve Everyone?
-tags: decision_makers
-
-Me: Why Involve Everyone?
-
-Facilyn: To leave out affected parties often creates unintended consequences. You risk that the context you will create becomes one-sided or meaningless to people who were not involved in this process. 
-
-In front of the teahouse, a post robot rolls by, apparently trying to deliver mail to a fire hydrant. It's going at this for minutes, convinced the hydrant is a very quiet resident.
-
-- #decision_makers
-
-@include_dmkrs
-title: Include decision makers
-view-if: part-of != "individual"
-go-to: @physical_resources
-
-Facilyn: This framework requires everyone you just named to be involved in this conversation. So this would normally be the moment you make sure everybody joins.
 
 # Agriculture
 
 @agr_farm_dmkrs
-title: Farm owners and farm managers
+title: Farm owners, farm managers and staff.
 view-if: sector = "agriculture"
-on-arrival: decision_makers = "Farm owners and farm managers"
+on-arrival: decision_makers = "Farm owners, farm managers and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Farm owners and farm managers
+Me: Farm owners, farm managers and staff.
 
 @agr_coop_dmkrs
-title: Cooperative members and board of directors
+title: Cooperative members, staff and board of directors.
 view-if: sector = "agriculture"
-on-arrival: decision_makers = "Cooperative members and board of directors"
+on-arrival: decision_makers = "Cooperative members, staff and board of directors."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Cooperative members and board of directors
+Me: Cooperative members, staff and board of directors.
 
 @agr_ranch_dmkrs
-title: Ranch owners and ranch managers
+title: Ranch owners, ranch managers and staff.
 view-if: sector = "agriculture"
-on-arrival: decision_makers = "Ranch owners and ranch managers"
+on-arrival: decision_makers = "Ranch owners, ranch managers and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Ranch owners and ranch managers
+Me: Ranch owners, ranch managers and staff.
 
 # Business
 
 @bus_store_dmkrs
-title: Store owners and managers
+title: Store owners, managers and staff.
 view-if: sector = "business"
-on-arrival: decision_makers = "Store owners and managers"
+on-arrival: decision_makers = "Store owners, managers and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Store owners and managers
+Me: Store owners, managers and staff.
 
 @bus_insurance_dmkrs
-title: Insurance executives and underwriters
+title: Insurance executives, underwriters and staff.
 view-if: sector = "business"
-on-arrival: decision_makers = "Insurance executives and underwriters"
+on-arrival: decision_makers = "Insurance executives, underwriters and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Insurance executives and underwriters
+Me: Insurance executives, underwriters and staff.
 
-@bus_train_dmkrs
-title: Railway executives and operations managers
+@bus_hospitality_dmkrs
+title: Hotel owners, managers and staff.
 view-if: sector = "business"
-on-arrival: decision_makers = "Railway executives and operations managers"
+on-arrival: decision_makers = "Hotel owners, managers and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Railway executives and operations managers
+Me: Hotel owners, managers and staff.
+
+@bus_company_dmkrs
+title: Company owners, managers and staff.
+view-if: sector = "business"
+on-arrival: decision_makers = "Company owners, managers and staff."
+go-to: physical_resources
+tags: decision_makers
+
+Me: Company owners, managers and staff.
 
 # Culture
 
 @cul_arts_dmkrs
-title: Arts directors and curators
+title: Arts directors, curators and staff.
 view-if: sector = "culture"
-on-arrival: decision_makers = "Arts directors and curators"
+on-arrival: decision_makers = "Arts directors, curators and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Arts directors and curators
+Me: Arts directors, curators and staff.
 
 @cul_heritage_dmkrs
-title: Heritage conservators and board members
+title: Heritage conservators, board members and staff.
 view-if: sector = "culture"
-on-arrival: decision_makers = "Heritage conservators and board members"
+on-arrival: decision_makers = "Heritage conservators, board members and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Heritage conservators and board members
+Me: Heritage conservators, board members and staff.
 
 @cul_newsroom_dmkrs
-title: Editors and journalists
+title: Media board members, editors and journalists.
 view-if: sector = "culture"
-on-arrival: decision_makers = "Editors and journalists"
+on-arrival: decision_makers = "Media board members, editors and journalists."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Editors and journalists
+Me: Media board members, editors and journalists.
 
 # Education
 
 @edu_kindergarten_dmkrs
-title: Kindergarten teachers and administrators
+title: Kindergarten teachers and administrators.
 view-if: sector = "education"
-on-arrival: decision_makers = "Kindergarten teachers and administrators"
+on-arrival: decision_makers = "Kindergarten teachers and administrators."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Kindergarten teachers and administrators
+Me: Kindergarten teachers and administrators.
 
 @edu_school_dmkrs
-title: Teachers, School administrators and the ministry of education
+title: School administrators, teachers and the ministry of education.
 view-if: sector = "education"
-on-arrival: decision_makers = "Teachers, School administrators and the ministry of education"
+on-arrival: decision_makers = "School administrators, teachers and the ministry of education."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Teachers, School administrators and the ministry of education
+Me: School administrators, teachers and the ministry of education.
 
 @edu_university_dmkrs
-title: University faculty and administration
+title: University faculty and administration.
 view-if: sector = "education"
-on-arrival: decision_makers = "University faculty and administration"
+on-arrival: decision_makers = "University faculty and administration."
+go-to: physical_resources
 tags: decision_makers
 
-Me: University faculty and administration
+Me: University faculty and administration.
 
 # Industry
 
 @ind_factory_dmkrs
-title: Factory managers and production supervisors
+title: Factory managers, production supervisors and staff.
 view-if: sector = "industry"
-on-arrival: decision_makers = "Factory managers and production supervisors"
+on-arrival: decision_makers = "Factory managers, production supervisors and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Factory managers and production supervisors
+Me: Factory managers, production supervisors and staff.
 
 @ind_construction_dmkrs
-title: Construction managers and project supervisors
+title: Construction managers, project supervisors and staff.
 view-if: sector = "industry"
-on-arrival: decision_makers = "Construction managers and project supervisors"
+on-arrival: decision_makers = "Construction managers, project supervisors and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Construction managers and project supervisors
+Me: Construction managers, project supervisors and staff.
 
 @ind_logging_dmkrs
-title: Logging supervisors and forest managers
+title: Logging supervisors, forest managers and staff.
 view-if: sector = "industry"
-on-arrival: decision_makers = "Logging supervisors and forest managers"
+on-arrival: decision_makers = "Logging supervisors, forest managers and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Logging supervisors and forest managers
+Me: Logging supervisors, forest managers and staff.
 
 # Nonprofit
 
-@non_service_dmkrs
-title: Service coordinators and board members
+@nonprofit_service_dmkrs
+title: Service coordinators, board members and staff.
 view-if: sector = "nonprofit"
-on-arrival: decision_makers = "Service coordinators and board members"
+on-arrival: decision_makers = "Service coordinators, board members and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Service coordinators and board members
+Me: Service coordinators, board members and staff.
 
-@non_advocacy_dmkrs
-title: Advocacy leaders and campaign managers
+@nonprofit_advocacy_dmkrs
+title: Advocacy leaders, campaign managers and staff.
 view-if: sector = "nonprofit"
-on-arrival: decision_makers = "Advocacy leaders and campaign managers"
+on-arrival: decision_makers = "Advocacy leaders, campaign managers and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Advocacy leaders and campaign managers
+Me: Advocacy leaders, campaign managers and staff.
 
-@non_climate_dmkrs
-title: Environmental scientists and activists
+@nonprofit_climate_dmkrs
+title: Environmental scientists and activists.
 view-if: sector = "nonprofit"
-on-arrival: decision_makers = "Environmental scientists and activists"
+on-arrival: decision_makers = "Environmental scientists and activists."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Environmental scientists and activists
+Me: Environmental scientists and activists.
 
 # Public service
 
-@pub_health_dmkrs
-title: Hospital administrators and medical staff
-view-if: sector = "publicservice"
-on-arrival: decision_makers = "Hospital administrators and medical staff"
+@pub_transport_dmkrs
+title: Public transport executives, operations managers and staff.
+view-if: sector = "business"
+on-arrival: decision_makers = "Public transport executives, operations managers and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Hospital administrators and medical staff
+Me: Public transport executives, operations managers and staff.
+
+@pub_health_dmkrs
+title: Hospital administrators and medical staff.
+view-if: sector = "publicservice"
+on-arrival: decision_makers = "Hospital administrators and medical staff."
+go-to: physical_resources
+tags: decision_makers
+
+Me: Hospital administrators and medical staff.
 
 @pub_service_dmkrs
-title: Agency directors and department heads
+title: Agency directors and department heads.
 view-if: sector = "publicservice"
-on-arrival: decision_makers = "Agency directors and department heads"
+on-arrival: decision_makers = "Agency directors and department heads."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Agency directors and department heads
+Me: Agency directors and department heads.
 
 @pub_parks_dmkrs
-title: Parks managers and recreation coordinators
+title: Parks managers, recreation coordinators and staff.
 view-if: sector = "publicservice"
-on-arrival: decision_makers = "Parks managers and recreation coordinators"
+on-arrival: decision_makers = "Parks managers, recreation coordinators and staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Parks managers and recreation coordinators
+Me: Parks managers, recreation coordinators and staff.
 
 # Policymaking
 
 @pol_policy_dmkrs
-title: Government officials and policy advisors
+title: Government officials and policy advisors.
 view-if: sector = "policymaking"
-on-arrival: decision_makers = "Government officials and policy advisors"
+on-arrival: decision_makers = "Government officials and policy advisors."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Government officials and policy advisors
+Me: Government officials and policy advisors.
 
 @pol_city_dmkrs
-title: City council members and mayor
+title: City council members and mayor.
 view-if: sector = "policymaking"
-on-arrival: decision_makers = "City council members and mayor"
+on-arrival: decision_makers = "City council members and mayor."
+go-to: physical_resources
 tags: decision_makers
 
-Me: City council members and mayor
+Me: City council members and mayor.
 
 @pol_intl_dmkrs
-title: Ambassadors and diplomatic staff
+title: Ambassadors and diplomatic staff.
 view-if: sector = "policymaking"
-on-arrival: decision_makers = "Ambassadors and diplomatic staff"
+on-arrival: decision_makers = "Ambassadors and diplomatic staff."
+go-to: physical_resources
 tags: decision_makers
 
-Me: Ambassadors and diplomatic staff
+Me: Ambassadors and diplomatic staff.
