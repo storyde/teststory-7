@@ -1,0 +1,55 @@
+title: Got it
+view-if: part-of = "individual"
+tags: whole_u_mgmt
+
+Me: Got it.
+
+Facilyn: Let's start with the decisionmakers. Do you want to focus on yourself for now? Or shall we expand the "whole" a little bit and include anyone you live together with, or any other person with veto power over your decisions? 
+
+- #decision_makers
+
+@dmkrs_me
+title: Just me
+view-if: part-of = "individual"
+tags: decision_makers
+on-arrival: decision_makers = "Just me"
+go-to: physical_resources
+
+Me: Just me. I am making the decisions in my life.
+
+Facilyn: Perfect. Then we treat you as the only decision maker.
+
+@dmkrs_include_more
+title: Include more people
+view-if: part-of = "individual"
+tags: decision_makers
+on-arrival: decision_makers = "Me and people I live or decide with"; part-of = "group"
+go-to: physical_resources
+
+Me: Let's include the people I live or decide with, and anyone with veto power.
+
+Facilyn: Great. We will treat all of you together as the decision makers in your whole under management.
+
+@dmkrs_group
+title: Got it
+view-if: part-of = "group"
+tags: whole_u_mgmt
+
+Me: Got it.
+
+Facilyn: Let's start with the decisionmakers. In your group, who is making decisions, who is expected to carry out these decisions, and are there any other people with veto power over your decisions? Try to be inclusive rather than exclusive. 
+
+- #decision_makers
+
+# Group
+
+@dmkrs_group_all
+title: Our group and others with veto power
+view-if: part-of = "group"
+tags: decision_makers
+on-arrival: decision_makers = "Group members and others with veto power"
+go-to: ai_physical_resources
+
+Me: Let's include everyone in our group and anyone with veto power over our decisions.
+
+Facilyn: Good. That gives us the decision makers for your whole under management.

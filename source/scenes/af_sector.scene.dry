@@ -1,17 +1,3 @@
-title: Yes, please
-tags: start_frmwrk
-
-Me: Yes, please
-
-Facilyn sets down her tea, her eyes brightening.
-
-Facilyn: Excellent! First we define the "whole" you're managing. This clarifies your resources and what you influence with your management. 
-
-Facilyn: A manageable whole has three essential elements: the people who make decisions, the resources available to them, and the money you have or can generate. 
-
-- #whole_u_mgmt
-
-@choose_sector
 title: Got it
 view-if: part-of = "org"
 tags: whole_u_mgmt
