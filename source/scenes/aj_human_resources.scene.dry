@@ -10,22 +10,22 @@ Facilyn: These people are no less important than the decision makers. In fact, t
 # Individual
 
 @ind_rural_hrcs
-title: Neighbors and local community
+title: Friends, neighbors and local community
 view-if: part-of = "individual"
-on-arrival: humanresources = "Neighbors and local community"
+on-arrival: humanresources = "Friends, neighbors and local community"
 go-to: monetary_resources
 tags: human_rcs
 
-Me: Neighbors and local community.
+Me: Friends, neighbors and local community.
 
 @ind_urban_hrcs
-title: Neighbors and service providers
+title: Friends, neighbors and work associates
 view-if: part-of = "individual"
-on-arrival: humanresources = "Neighbors and service providers"
+on-arrival: humanresources = "Friends, neighbors and work associates"
 go-to: monetary_resources
 tags: human_rcs
 
-Me: Neighbors and service providers.
+Me: Friends, neighbors and work associates.
 
 @ind_nomad_hrcs
 title: Fellow travelers and host communities
@@ -68,22 +68,22 @@ Me: Friends and neighbors.
 # Agriculture
 
 @agr_farm_hrcs
-title: Agricultural suppliers and local community members
+title: Extended family, customers, suppliers and advisors
 view-if: sector = "agriculture"
-on-arrival: humanresources = "Agricultural suppliers and local community members"
+on-arrival: humanresources = "Extended family, customers, suppliers and advisors"
 go-to: monetary_resources
 tags: human_rcs
 
-Me: Agricultural suppliers and local community members.
+Me: Extended family, customers, suppliers and advisors.
 
 @agr_coop_hrcs
-title: Cooperative members and agricultural advisors
+title: Cooperative members, customers and suppliers
 view-if: sector = "agriculture"
-on-arrival: humanresources = "Cooperative members and agricultural advisors"
+on-arrival: humanresources = "Cooperative members, customers and suppliers"
 go-to: monetary_resources
 tags: human_rcs
 
-Me: Cooperative members and agricultural advisors.
+Me: Cooperative members, customers and suppliers.
 
 @agr_ranch_hrcs
 title: Veterinarians and land stewards
@@ -221,7 +221,7 @@ Me: Environmental officers and local communities.
 
 # Nonprofit
 
-@non_service_hrcs
+@nonprofit_service_hrcs
 title: Beneficiaries and donors
 view-if: sector = "nonprofit"
 on-arrival: humanresources = "Beneficiaries and donors"
@@ -230,7 +230,7 @@ tags: human_rcs
 
 Me: Beneficiaries and donors.
 
-@non_advocacy_hrcs
+@nonprofit_advocacy_hrcs
 title: Supporters and opponents
 view-if: sector = "nonprofit"
 on-arrival: humanresources = "Supporters and opponents"
@@ -239,7 +239,7 @@ tags: human_rcs
 
 Me: Supporters and opponents.
 
-@non_climate_hrcs
+@nonprofit_climate_hrcs
 title: Environmental scientists and activists.
 view-if: sector = "nonprofit"
 on-arrival: humanresources = "Environmental scientists and activists"

@@ -104,13 +104,13 @@ tags: physical_rcs
 Me: Our organisation has shared cooperative facilities and grain storage systems.
 
 @agr_ranch_prcs
-title: Ranch land and livestock facilities
+title: Ranch land, wildlife, livestock and facilities
 view-if: sector = "agriculture"
-on-arrival: physicalresources = "Ranch land and livestock facilities"
+on-arrival: physicalresources = "Ranch land, wildlife, livestock and facilities"
 go-to: human_resources
 tags: physical_rcs
 
-Me: Our physical resources are ranch land, livestock and the facilities for it.
+Me: Our physical resources are ranch land, wildlife, livestock and our facilities.
 
 # Business
 
@@ -239,7 +239,7 @@ Me: My business involves logging equipment and processing facilities.
 
 # Nonprofit
 
-@non_service_prcs
+@nonprofit_service_prcs
 title: Service facilities and community centers
 view-if: sector = "nonprofit"
 on-arrival: physicalresources = "Service facilities and community centers"
@@ -248,7 +248,7 @@ tags: physical_rcs
 
 Me: Our organisation runs service facilities and community centers.
 
-@non_advocacy_prcs
+@nonprofit_advocacy_prcs
 title: Office facilities and campaign materials
 view-if: sector = "nonprofit"
 on-arrival: physicalresources = "Office facilities and campaign materials"
@@ -257,7 +257,7 @@ tags: physical_rcs
 
 Me: Our organisation uses office facilities and campaign materials.
 
-@non_climate_prcs
+@nonprofit_climate_prcs
 title: Research facilities and conservation equipment
 view-if: sector = "nonprofit"
 on-arrival: physicalresources = "Research facilities and conservation equipment"

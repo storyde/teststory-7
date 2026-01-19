@@ -15,7 +15,7 @@ Facilyn: This includes cash, savings, a credit you could take if needed, or crow
 title: Savings and income from produce
 view-if: part-of = "individual"
 on-arrival: monetaryresources = "Savings and income from produce"
-go-to: statement_of_purpose
+go-to: quality_of_life_intro
 tags: monetary_rcs
 
 Me: Savings and income from produce.
@@ -24,7 +24,7 @@ Me: Savings and income from produce.
 title: Salary and savings
 view-if: part-of = "individual"
 on-arrival: monetaryresources = "Salary and savings"
-go-to: statement_of_purpose
+go-to: quality_of_life_intro
 tags: monetary_rcs
 
 Me: Salary and savings.
@@ -33,7 +33,7 @@ Me: Salary and savings.
 title: Savings and freelance income
 view-if: part-of = "individual"
 on-arrival: monetaryresources = "Savings and freelance income"
-go-to: statement_of_purpose
+go-to: quality_of_life_intro
 tags: monetary_rcs
 
 Me: Savings and freelance income.
@@ -44,7 +44,7 @@ Me: Savings and freelance income.
 title: Shared treasury and member contributions
 view-if: part-of = "group"
 on-arrival: monetaryresources = "Shared treasury and member contributions"
-go-to: statement_of_purpose
+go-to: quality_of_life_intro
 tags: monetary_rcs
 
 Me: Shared treasury and member contributions.
@@ -53,7 +53,7 @@ Me: Shared treasury and member contributions.
 title: Business revenue and family savings
 view-if: part-of = "group"
 on-arrival: monetaryresources = "Business revenue and family savings"
-go-to: statement_of_purpose
+go-to: quality_of_life_intro
 tags: monetary_rcs
 
 Me: Business revenue and family savings.
@@ -62,7 +62,7 @@ Me: Business revenue and family savings.
 title: Rent contributions and project grants
 view-if: part-of = "group"
 on-arrival: monetaryresources = "Rent contributions and project grants"
-go-to: statement_of_purpose
+go-to: quality_of_life_intro
 tags: monetary_rcs
 
 Me: Rent contributions and project grants.
@@ -79,13 +79,13 @@ tags: monetary_rcs
 Me: Operating funds and crop revenue.
 
 @agr_coop_mrcs
-title: Member fees and cooperative sales revenue
+title: Sales revenue, member fees and potential loans
 view-if: sector = "agriculture"
-on-arrival: monetaryresources = "Member fees and cooperative sales revenue"
+on-arrival: monetaryresources = "Sales revenue, member fees and potential loans"
 go-to: statement_of_purpose
 tags: monetary_rcs
 
-Me: Member fees and cooperative sales revenue.
+Me: Sales revenue, member fees and potential loans.
 
 @agr_ranch_mrcs
 title: Livestock sales and land lease income
@@ -223,7 +223,7 @@ Me: Timber revenue and forestry investments.
 
 # Nonprofit
 
-@non_service_mrcs
+@nonprofit_service_mrcs
 title: Grants and donations
 view-if: sector = "nonprofit"
 on-arrival: monetaryresources = "Grants and donations"
@@ -232,7 +232,7 @@ tags: monetary_rcs
 
 Me: Grants and donations.
 
-@non_advocacy_mrcs
+@nonprofit_advocacy_mrcs
 title: Foundation grants and campaign contributions
 view-if: sector = "nonprofit"
 on-arrival: monetaryresources = "Foundation grants and campaign contributions"
@@ -241,7 +241,7 @@ tags: monetary_rcs
 
 Me: Foundation grants and campaign contributions.
 
-@non_climate_mrcs
+@nonprofit_climate_mrcs
 title: Environmental grants and conservation funding
 view-if: sector = "nonprofit"
 on-arrival: monetaryresources = "Environmental grants and conservation funding"
