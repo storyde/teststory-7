@@ -42,10 +42,12 @@ source/
 
 ```
 title: Scene Title
-author: Author Name
-tags: tag1, tag2, tag3
+subtitle: Optional subtitle
 view-if: condition > 0
+tags: tag1, tag2, tag3
 ```
+
+**Note**: Scene files start with a `title` property. They do not need an `@scene_id` property. The @scene_id is automatically derived from the filename.
 
 ### Multi-line Properties
 
@@ -91,9 +93,9 @@ Add this scene to the choices by giving it the tag tag_name
 
 #### Required Properties
 
-* **id**: Automatically derived from filename
+* **id**: At the top, this is automatically derived from filename
 
-* **type**: Automatically set to "scene"
+* **type**: This is automatically set to "scene"
 
 * **content**: The main text content
 
