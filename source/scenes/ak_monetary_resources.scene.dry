@@ -1,13 +1,71 @@
 title: Monetary Resources
-subtitle: Money Available to You
+subtitle: Moneytary resources available to you
 
 Facilyn: Now identify the moneytary resources you have.  What’s within reach?
  
 Facilyn: This is not about a deeper conversation about the meaning of money and wealth. Just list what is in your reach.
  
-This includes cash, savings, a credit you could take if needed, or crowd sourcing, etc. And it would almost always include money that could be generated from the physical assets listed in your resource base. 
+Facilyn: This includes cash, savings, a credit you could take if needed, or crowd sourcing, etc. And it would almost always include money that could be generated from the physical assets listed in your resource base. 
 
 - #monetary_rcs
+
+# Individual
+
+@ind_rural_mrcs
+title: Savings and income from produce
+view-if: part-of = "individual"
+on-arrival: monetaryresources = "Savings and income from produce"
+go-to: statement_of_purpose
+tags: monetary_rcs
+
+Me: Savings and income from produce.
+
+@ind_urban_mrcs
+title: Salary and savings
+view-if: part-of = "individual"
+on-arrival: monetaryresources = "Salary and savings"
+go-to: statement_of_purpose
+tags: monetary_rcs
+
+Me: Salary and savings.
+
+@ind_nomad_mrcs
+title: Savings and freelance income
+view-if: part-of = "individual"
+on-arrival: monetaryresources = "Savings and freelance income"
+go-to: statement_of_purpose
+tags: monetary_rcs
+
+Me: Savings and freelance income.
+
+# Group
+
+@grp_commune_mrcs
+title: Shared treasury and member contributions
+view-if: part-of = "group"
+on-arrival: monetaryresources = "Shared treasury and member contributions"
+go-to: statement_of_purpose
+tags: monetary_rcs
+
+Me: Shared treasury and member contributions.
+
+@grp_family_biz_mrcs
+title: Business revenue and family savings
+view-if: part-of = "group"
+on-arrival: monetaryresources = "Business revenue and family savings"
+go-to: statement_of_purpose
+tags: monetary_rcs
+
+Me: Business revenue and family savings.
+
+@grp_urban_col_mrcs
+title: Rent contributions and project grants
+view-if: part-of = "group"
+on-arrival: monetaryresources = "Rent contributions and project grants"
+go-to: statement_of_purpose
+tags: monetary_rcs
+
+Me: Rent contributions and project grants.
 
 # Agriculture
 
@@ -15,6 +73,7 @@ This includes cash, savings, a credit you could take if needed, or crowd sourcin
 title: Operating funds and crop revenue
 view-if: sector = "agriculture"
 on-arrival: monetaryresources = "Operating funds and crop revenue"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Operating funds and crop revenue.
@@ -23,6 +82,7 @@ Me: Operating funds and crop revenue.
 title: Member fees and cooperative sales revenue
 view-if: sector = "agriculture"
 on-arrival: monetaryresources = "Member fees and cooperative sales revenue"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Member fees and cooperative sales revenue.
@@ -31,6 +91,7 @@ Me: Member fees and cooperative sales revenue.
 title: Livestock sales and land lease income
 view-if: sector = "agriculture"
 on-arrival: monetaryresources = "Livestock sales and land lease income"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Livestock sales and land lease income.
@@ -41,6 +102,7 @@ Me: Livestock sales and land lease income.
 title: Working capital and revenue streams
 view-if: sector = "business"
 on-arrival: monetaryresources = "Working capital and revenue streams"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Working capital and revenue streams.
@@ -49,17 +111,28 @@ Me: Working capital and revenue streams.
 title: Premium income and reserve funds
 view-if: sector = "business"
 on-arrival: monetaryresources = "Premium income and reserve funds"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Premium income and reserve funds.
 
-@bus_train_mrcs
-title: Ticket revenue and government subsidies
+@bus_hospitality_mrcs
+title: Room revenue and food sales
 view-if: sector = "business"
-on-arrival: monetaryresources = "Ticket revenue and government subsidies"
+on-arrival: monetaryresources = "Room revenue and food sales"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
-Me: Ticket revenue and government subsidies.
+Me: Room revenue and food sales.
+
+@bus_company_mrcs
+title: Client fees and investment capital
+view-if: sector = "business"
+on-arrival: monetaryresources = "Client fees and investment capital"
+go-to: statement_of_purpose
+tags: monetary_rcs
+
+Me: Client fees and investment capital.
 
 # Culture
 
@@ -67,6 +140,7 @@ Me: Ticket revenue and government subsidies.
 title: Grants and donations
 view-if: sector = "culture"
 on-arrival: monetaryresources = "Grants and donations"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Grants and donations.
@@ -75,6 +149,7 @@ Me: Grants and donations.
 title: Heritage funding and visitor fees
 view-if: sector = "culture"
 on-arrival: monetaryresources = "Heritage funding and visitor fees"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Heritage funding and visitor fees.
@@ -83,6 +158,7 @@ Me: Heritage funding and visitor fees.
 title: Advertising revenue and subscriptions
 view-if: sector = "culture"
 on-arrival: monetaryresources = "Advertising revenue and subscriptions"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Advertising revenue and subscriptions.
@@ -93,6 +169,7 @@ Me: Advertising revenue and subscriptions.
 title: Kindergarten budget and early childhood funding
 view-if: sector = "education"
 on-arrival: monetaryresources = "Kindergarten budget and early childhood funding"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Kindergarten budget and early childhood funding.
@@ -101,6 +178,7 @@ Me: Kindergarten budget and early childhood funding.
 title: Government funding and tuition fees
 view-if: sector = "education"
 on-arrival: monetaryresources = "Government funding and tuition fees"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Government funding and tuition fees.
@@ -109,6 +187,7 @@ Me: Government funding and tuition fees.
 title: University endowment and research grants
 view-if: sector = "education"
 on-arrival: monetaryresources = "University endowment and research grants"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: University endowment and research grants.
@@ -119,6 +198,7 @@ Me: University endowment and research grants.
 title: Operating capital and investment funds
 view-if: sector = "industry"
 on-arrival: monetaryresources = "Operating capital and investment funds"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Operating capital and investment funds.
@@ -127,6 +207,7 @@ Me: Operating capital and investment funds.
 title: Project financing and client payments
 view-if: sector = "industry"
 on-arrival: monetaryresources = "Project financing and client payments"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Project financing and client payments.
@@ -135,6 +216,7 @@ Me: Project financing and client payments.
 title: Timber revenue and forestry investments
 view-if: sector = "industry"
 on-arrival: monetaryresources = "Timber revenue and forestry investments"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Timber revenue and forestry investments.
@@ -145,6 +227,7 @@ Me: Timber revenue and forestry investments.
 title: Grants and donations
 view-if: sector = "nonprofit"
 on-arrival: monetaryresources = "Grants and donations"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Grants and donations.
@@ -153,6 +236,7 @@ Me: Grants and donations.
 title: Foundation grants and campaign contributions
 view-if: sector = "nonprofit"
 on-arrival: monetaryresources = "Foundation grants and campaign contributions"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Foundation grants and campaign contributions.
@@ -161,16 +245,27 @@ Me: Foundation grants and campaign contributions.
 title: Environmental grants and conservation funding
 view-if: sector = "nonprofit"
 on-arrival: monetaryresources = "Environmental grants and conservation funding"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Environmental grants and conservation funding.
 
 # Public service
 
+@pub_transport_mrcs
+title: Ticket revenue and government subsidies
+view-if: sector = "publicservice"
+on-arrival: monetaryresources = "Ticket revenue and government subsidies"
+go-to: statement_of_purpose
+tags: monetary_rcs
+
+Me: Ticket revenue and government subsidies.
+
 @pub_health_mrcs
 title: Government budget and insurance reimbursements
 view-if: sector = "publicservice"
 on-arrival: monetaryresources = "Government budget and insurance reimbursements"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Government budget and insurance reimbursements.
@@ -179,6 +274,7 @@ Me: Government budget and insurance reimbursements.
 title: Government budget and public service funding
 view-if: sector = "publicservice"
 on-arrival: monetaryresources = "Government budget and public service funding"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Government budget and public service funding.
@@ -187,6 +283,7 @@ Me: Government budget and public service funding.
 title: Conservation budget and park fees
 view-if: sector = "publicservice"
 on-arrival: monetaryresources = "Conservation budget and park fees"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Conservation budget and park fees.
@@ -197,6 +294,7 @@ Me: Conservation budget and park fees.
 title: National budget and treasury funds
 view-if: sector = "policymaking"
 on-arrival: monetaryresources = "National budget and treasury funds"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: National budget and treasury funds.
@@ -205,6 +303,7 @@ Me: National budget and treasury funds.
 title: Municipal budget and local taxes
 view-if: sector = "policymaking"
 on-arrival: monetaryresources = "Municipal budget and local taxes"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Municipal budget and local taxes.
@@ -213,6 +312,7 @@ Me: Municipal budget and local taxes.
 title: Foreign affairs budget and diplomatic funding
 view-if: sector = "policymaking"
 on-arrival: monetaryresources = "Foreign affairs budget and diplomatic funding"
+go-to: statement_of_purpose
 tags: monetary_rcs
 
 Me: Foreign affairs budget and diplomatic funding.

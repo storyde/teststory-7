@@ -69,13 +69,21 @@ tags: st_purpose
 
 Me: We protect people and organisations from financial risk so they can thrive
 
-@bus_train_stmnt
-title: We connect people and places with reliable railway services
+@bus_hospitality_stmnt
+title: We provide welcoming spaces and experiences for travelers
 view-if: sector = "business"
-on-arrival: purpose = "We connect people and places with reliable railway services"
+on-arrival: purpose = "We provide welcoming spaces and experiences for travelers"
 tags: st_purpose
 
-Me: We connect people and places with reliable railway services
+Me: We provide welcoming spaces and experiences for travelers
+
+@bus_company_stmnt
+title: We provide value through our professional services and products
+view-if: sector = "business"
+on-arrival: purpose = "We provide value through our professional services and products"
+tags: st_purpose
+
+Me: We provide value through our professional services and products
 
 # Culture
 
@@ -182,6 +190,14 @@ tags: st_purpose
 Me: We protect the environment and fight climate change
 
 # Public service
+
+@pub_transport_stmnt
+title: We connect communities with safe and accessible transport
+view-if: sector = "publicservice"
+on-arrival: purpose = "We connect communities with safe and accessible transport"
+tags: st_purpose
+
+Me: We connect communities with safe and accessible transport
 
 @pub_health_stmnt
 title: We heal, prevent illness, and restore health

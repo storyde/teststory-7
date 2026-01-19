@@ -1,13 +1,69 @@
 title: Human Resources
-subtitle: People with influence on management decisions
+subtitle: People who influence or will be influenced by your management
 
-Facilyn: Now make a list of the categories of people who can/will influence or be influenced by the management decisions you make, but won't have the power to veto or alter them.
-
-[? if sector = "policymaking" : Facilyn: If your organisation is involved in governing and policymaking for your community, your city, for your country or even on an international level, you need to make sure to invite citizens from various backgrounds. Otherwise, you risk that your context, that we are about to create in a minute, reflects only the priorities of your organisation or of the institutions you collaborate with, instead of reflecting the interests of the people you govern. ?]
+Facilyn: Now make a list of the categories of people who can influence or will be influenced by the management decisions you make, but won't have the power to veto or alter them.
 
 Facilyn: These people are no less important than the decision makers. In fact, they are often vitally important to your whole even though they do not make management decisions within it. You wouldn't be in business without the clients or customers who buy your products, for instance.
 
 - #human_rcs
+
+# Individual
+
+@ind_rural_hrcs
+title: Neighbors and local community
+view-if: part-of = "individual"
+on-arrival: humanresources = "Neighbors and local community"
+go-to: monetary_resources
+tags: human_rcs
+
+Me: Neighbors and local community.
+
+@ind_urban_hrcs
+title: Neighbors and service providers
+view-if: part-of = "individual"
+on-arrival: humanresources = "Neighbors and service providers"
+go-to: monetary_resources
+tags: human_rcs
+
+Me: Neighbors and service providers.
+
+@ind_nomad_hrcs
+title: Fellow travelers and host communities
+view-if: part-of = "individual"
+on-arrival: humanresources = "Fellow travelers and host communities"
+go-to: monetary_resources
+tags: human_rcs
+
+Me: Fellow travelers and host communities.
+
+# Group
+
+@grp_commune_hrcs
+title: Neighbors and local authorities
+view-if: part-of = "group"
+on-arrival: humanresources = "Neighbors and local authorities"
+go-to: monetary_resources
+tags: human_rcs
+
+Me: Neighbors and local authorities.
+
+@grp_family_biz_hrcs
+title: Customers and suppliers
+view-if: part-of = "group"
+on-arrival: humanresources = "Customers and suppliers"
+go-to: monetary_resources
+tags: human_rcs
+
+Me: Customers and suppliers.
+
+@grp_urban_col_hrcs
+title: Friends and neighbors
+view-if: part-of = "group"
+on-arrival: humanresources = "Friends and neighbors"
+go-to: monetary_resources
+tags: human_rcs
+
+Me: Friends and neighbors.
 
 # Agriculture
 
@@ -15,6 +71,7 @@ Facilyn: These people are no less important than the decision makers. In fact, t
 title: Agricultural suppliers and local community members
 view-if: sector = "agriculture"
 on-arrival: humanresources = "Agricultural suppliers and local community members"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Agricultural suppliers and local community members.
@@ -23,6 +80,7 @@ Me: Agricultural suppliers and local community members.
 title: Cooperative members and agricultural advisors
 view-if: sector = "agriculture"
 on-arrival: humanresources = "Cooperative members and agricultural advisors"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Cooperative members and agricultural advisors.
@@ -31,6 +89,7 @@ Me: Cooperative members and agricultural advisors.
 title: Veterinarians and land stewards
 view-if: sector = "agriculture"
 on-arrival: humanresources = "Veterinarians and land stewards"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Veterinarians and land stewards.
@@ -41,6 +100,7 @@ Me: Veterinarians and land stewards.
 title: Customers and suppliers
 view-if: sector = "business"
 on-arrival: humanresources = "Customers and suppliers"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Customers and suppliers.
@@ -49,17 +109,28 @@ Me: Customers and suppliers.
 title: Customers and regulators
 view-if: sector = "business"
 on-arrival: humanresources = "Customers and regulators"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Customers and regulators.
 
-@bus_train_hrcs
-title: Passengers and transportation authorities
+@bus_hospitality_hrcs
+title: Guests and tourism board
 view-if: sector = "business"
-on-arrival: humanresources = "Passengers and transportation authorities"
+on-arrival: humanresources = "Guests and tourism board"
+go-to: monetary_resources
 tags: human_rcs
 
-Me: Passengers and transportation authorities.
+Me: Guests and tourism board.
+
+@bus_company_hrcs
+title: Clients and contractors
+view-if: sector = "business"
+on-arrival: humanresources = "Clients and contractors"
+go-to: monetary_resources
+tags: human_rcs
+
+Me: Clients and contractors.
 
 # Culture
 
@@ -67,6 +138,7 @@ Me: Passengers and transportation authorities.
 title: Audience representatives and funders
 view-if: sector = "culture"
 on-arrival: humanresources = "Audience representatives and funders"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Audience representatives and funders.
@@ -75,6 +147,7 @@ Me: Audience representatives and funders.
 title: Community representatives and cultural stakeholders
 view-if: sector = "culture"
 on-arrival: humanresources = "Community representatives and cultural stakeholders"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Community representatives and cultural stakeholders.
@@ -83,6 +156,7 @@ Me: Community representatives and cultural stakeholders.
 title: Audience representatives and legal counsel
 view-if: sector = "culture"
 on-arrival: humanresources = "Audience representatives and legal counsel"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Audience representatives and legal counsel.
@@ -93,6 +167,7 @@ Me: Audience representatives and legal counsel.
 title: Parents and early childhood specialists
 view-if: sector = "education"
 on-arrival: humanresources = "Parents and early childhood specialists"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Parents and early childhood specialists.
@@ -101,6 +176,7 @@ Me: Parents and early childhood specialists.
 title: Parents and ministry of education
 view-if: sector = "education"
 on-arrival: humanresources = "Parents and ministry of education"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Parents and ministry of education.
@@ -109,6 +185,7 @@ Me: Parents and ministry of education.
 title: Students, alumni and academic community
 view-if: sector = "education"
 on-arrival: humanresources = "Students, alumni and academic community"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Students, alumni and academic community.
@@ -119,6 +196,7 @@ Me: Students, alumni and academic community.
 title: Workers and union representatives
 view-if: sector = "industry"
 on-arrival: humanresources = "Workers and union representatives"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Workers and union representatives.
@@ -127,6 +205,7 @@ Me: Workers and union representatives.
 title: Clients and local residents
 view-if: sector = "industry"
 on-arrival: humanresources = "Clients and local residents"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Clients and local residents.
@@ -135,6 +214,7 @@ Me: Clients and local residents.
 title: Environmental officers and local communities
 view-if: sector = "industry"
 on-arrival: humanresources = "Environmental officers and local communities"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Environmental officers and local communities.
@@ -145,6 +225,7 @@ Me: Environmental officers and local communities.
 title: Beneficiaries and donors
 view-if: sector = "nonprofit"
 on-arrival: humanresources = "Beneficiaries and donors"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Beneficiaries and donors.
@@ -153,6 +234,7 @@ Me: Beneficiaries and donors.
 title: Supporters and opponents
 view-if: sector = "nonprofit"
 on-arrival: humanresources = "Supporters and opponents"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Supporters and opponents.
@@ -161,16 +243,27 @@ Me: Supporters and opponents.
 title: Environmental scientists and activists.
 view-if: sector = "nonprofit"
 on-arrival: humanresources = "Environmental scientists and activists"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Environmental scientists and activists.
 
 # Public service
 
+@pub_transport_hrcs
+title: Passengers and transportation authorities
+view-if: sector = "publicservice"
+on-arrival: humanresources = "Passengers and transportation authorities"
+go-to: monetary_resources
+tags: human_rcs
+
+Me: Passengers and transportation authorities.
+
 @pub_health_hrcs
 title: Patients and carers
 view-if: sector = "publicservice"
 on-arrival: humanresources = "Patients and carers"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Patients and carers.
@@ -179,6 +272,7 @@ Me: Patients and carers.
 title: Citizens and community representatives.
 view-if: sector = "publicservice"
 on-arrival: humanresources = "Citizens and community representatives"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Citizens and community representatives.
@@ -187,6 +281,7 @@ Me: Citizens and community representatives.
 title: Local communities and visitors
 view-if: sector = "publicservice"
 on-arrival: humanresources = "Local communities and visitors"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Local communities and visitors.
@@ -197,6 +292,7 @@ Me: Local communities and visitors.
 title: Citizens and stakeholder representatives
 view-if: sector = "policymaking"
 on-arrival: humanresources = "Citizens and stakeholder representatives"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Citizens and stakeholder representatives.
@@ -205,6 +301,7 @@ Me: Citizens and stakeholder representatives.
 title: Local residents and business representatives
 view-if: sector = "policymaking"
 on-arrival: humanresources = "Local residents and business representatives"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Local residents and business representatives.
@@ -213,6 +310,7 @@ Me: Local residents and business representatives.
 title: Citizens and diplomatic counterparts
 view-if: sector = "policymaking"
 on-arrival: humanresources = "Citizens and diplomatic counterparts"
+go-to: monetary_resources
 tags: human_rcs
 
 Me: Citizens and diplomatic counterparts.

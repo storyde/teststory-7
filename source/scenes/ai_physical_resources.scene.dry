@@ -3,7 +3,9 @@ subtitle: Major Physical Assets Available to You
 
 Facilyn: This framework requires everyone you just named to be involved in this conversation. So, this would normally be the moment you make sure everybody joins in. 
 
-Facilyn: But given the approaching storm outside, we'll leave it at that. 
+[? if sector = "policymaking" : Facilyn: If your organisation is involved in governing and policymaking for your community, your city, for your country or even on an international level, you need to make sure to invite citizens from various backgrounds. Otherwise, you risk that your context, that we are about to create in a minute, reflects only the priorities of your organisation or of the institutions you collaborate with, instead of reflecting the interests of the people you govern. ?]
+
+Facilyn: But given the approaching storm outside, we'll have to do that next time. 
 
 Facilyn: The next step is to identify your major physical resources from which you can generate revenue or derive support. These might include land, buildings, equipment, machinery, or other physical assets. These resources need not be owned, merely available to you.
 
@@ -29,6 +31,7 @@ A logistics robot rolls by, diligently cataloguing every object in sight—inclu
 title: Rural home, land, vehicle and tools
 view-if: part-of = "individual"
 on-arrival: physicalresources = "Rural home, land, vehicle and tools"
+go-to: human_resources
 tags: physical_rcs
 
 Me: I own a home with some land, a vehicle, and various tools.
@@ -37,6 +40,7 @@ Me: I own a home with some land, a vehicle, and various tools.
 title: City apartment, bicycle and digital equipment
 view-if: part-of = "individual"
 on-arrival: physicalresources = "City apartment, bicycle and digital equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: I live in a city apartment, use a bicycle, and rely on my digital equipment.
@@ -45,6 +49,7 @@ Me: I live in a city apartment, use a bicycle, and rely on my digital equipment.
 title: Mobile home and portable gear
 view-if: part-of = "individual"
 on-arrival: physicalresources = "Mobile home and portable gear"
+go-to: human_resources
 tags: physical_rcs
 
 Me: My home is my vehicle, and I own only what fits inside it.
@@ -55,6 +60,7 @@ Me: My home is my vehicle, and I own only what fits inside it.
 title: Shared land, housing and community facilities
 view-if: part-of = "group"
 on-arrival: physicalresources = "Shared land, housing and community facilities"
+go-to: human_resources
 tags: physical_rcs
 
 Me: We share land, housing, and community facilities.
@@ -63,6 +69,7 @@ Me: We share land, housing, and community facilities.
 title: Family home, business premises and inventory
 view-if: part-of = "group"
 on-arrival: physicalresources = "Family home, business premises and inventory"
+go-to: human_resources
 tags: physical_rcs
 
 Me: We own a family home, along with our business premises and inventory.
@@ -71,6 +78,7 @@ Me: We own a family home, along with our business premises and inventory.
 title: Shared apartment and creative workspace
 view-if: part-of = "group"
 on-arrival: physicalresources = "Shared apartment and creative workspace"
+go-to: human_resources
 tags: physical_rcs
 
 Me: We share a large apartment and a workspace for our projects.
@@ -81,6 +89,7 @@ Me: We share a large apartment and a workspace for our projects.
 title: Farmland and agricultural equipment
 view-if: sector = "agriculture"
 on-arrival: physicalresources = "Farmland and agricultural equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: My business includes farmland and the agricultural equipment needed to work it.
@@ -89,6 +98,7 @@ Me: My business includes farmland and the agricultural equipment needed to work 
 title: Cooperative facilities and grain storage
 view-if: sector = "agriculture"
 on-arrival: physicalresources = "Cooperative facilities and grain storage"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation has shared cooperative facilities and grain storage systems.
@@ -97,6 +107,7 @@ Me: Our organisation has shared cooperative facilities and grain storage systems
 title: Ranch land and livestock facilities
 view-if: sector = "agriculture"
 on-arrival: physicalresources = "Ranch land and livestock facilities"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our physical resources are ranch land, livestock and the facilities for it.
@@ -107,6 +118,7 @@ Me: Our physical resources are ranch land, livestock and the facilities for it.
 title: Store buildings and retail equipment
 view-if: sector = "business"
 on-arrival: physicalresources = "Store buildings and retail equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: My business includes store buildings and all necessary retail equipment.
@@ -115,6 +127,7 @@ Me: My business includes store buildings and all necessary retail equipment.
 title: Office buildings and information technology
 view-if: sector = "business"
 on-arrival: physicalresources = "Office buildings and information technology"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation relies on office buildings and information technology infrastructure.
@@ -123,6 +136,7 @@ Me: Our organisation relies on office buildings and information technology infra
 title: Hotel buildings and guest amenities
 view-if: sector = "business"
 on-arrival: physicalresources = "Hotel buildings and guest amenities"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our physical resources are hotel buildings and guest amenities.
@@ -131,6 +145,7 @@ Me: Our physical resources are hotel buildings and guest amenities.
 title: Office premises and operational assets
 view-if: sector = "business"
 on-arrival: physicalresources = "Office premises and operational assets"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation has office premises and operational assets.
@@ -141,6 +156,7 @@ Me: Our organisation has office premises and operational assets.
 title: Arts venues and cultural equipment
 view-if: sector = "culture"
 on-arrival: physicalresources = "Arts venues and cultural equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation involves arts venues and specific cultural equipment.
@@ -149,6 +165,7 @@ Me: Our organisation involves arts venues and specific cultural equipment.
 title: Heritage buildings and preservation equipment
 view-if: sector = "culture"
 on-arrival: physicalresources = "Heritage buildings and preservation equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: The physical resources of our organisation are heritage buildings and preservation equipment.
@@ -157,6 +174,7 @@ Me: The physical resources of our organisation are heritage buildings and preser
 title: Media facilities and broadcasting equipment
 view-if: sector = "culture"
 on-arrival: physicalresources = "Media facilities and broadcasting equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation has media facilities and broadcasting equipment.
@@ -167,6 +185,7 @@ Me: Our organisation has media facilities and broadcasting equipment.
 title: Kindergarten buildings and playground equipment
 view-if: sector = "education"
 on-arrival: physicalresources = "Kindergarten buildings and playground equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation includes kindergarten buildings and playground equipment.
@@ -175,6 +194,7 @@ Me: Our organisation includes kindergarten buildings and playground equipment.
 title: School buildings and educational equipment
 view-if: sector = "education"
 on-arrival: physicalresources = "School buildings and educational equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation covers school buildings and educational equipment.
@@ -183,6 +203,7 @@ Me: Our organisation covers school buildings and educational equipment.
 title: University campus and research facilities
 view-if: sector = "education"
 on-arrival: physicalresources = "University campus and research facilities"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation encompasses a university campus and its research facilities.
@@ -193,6 +214,7 @@ Me: Our organisation encompasses a university campus and its research facilities
 title: Factory buildings and production machinery
 view-if: sector = "industry"
 on-arrival: physicalresources = "Factory buildings and production machinery"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our physical resources are factory buildings and production machinery.
@@ -201,6 +223,7 @@ Me: Our physical resources are factory buildings and production machinery.
 title: Construction equipment and building materials
 view-if: sector = "industry"
 on-arrival: physicalresources = "Construction equipment and building materials"
+go-to: human_resources
 tags: physical_rcs
 
 Me: My business utilizes construction equipment and building materials.
@@ -209,6 +232,7 @@ Me: My business utilizes construction equipment and building materials.
 title: Logging equipment and processing facilities
 view-if: sector = "industry"
 on-arrival: physicalresources = "Logging equipment and processing facilities"
+go-to: human_resources
 tags: physical_rcs
 
 Me: My business involves logging equipment and processing facilities.
@@ -219,6 +243,7 @@ Me: My business involves logging equipment and processing facilities.
 title: Service facilities and community centers
 view-if: sector = "nonprofit"
 on-arrival: physicalresources = "Service facilities and community centers"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation runs service facilities and community centers.
@@ -227,6 +252,7 @@ Me: Our organisation runs service facilities and community centers.
 title: Office facilities and campaign materials
 view-if: sector = "nonprofit"
 on-arrival: physicalresources = "Office facilities and campaign materials"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation uses office facilities and campaign materials.
@@ -235,6 +261,7 @@ Me: Our organisation uses office facilities and campaign materials.
 title: Research facilities and conservation equipment
 view-if: sector = "nonprofit"
 on-arrival: physicalresources = "Research facilities and conservation equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation has acces to research facilities and conservation equipment.
@@ -245,6 +272,7 @@ Me: Our organisation has acces to research facilities and conservation equipment
 title: Public transport fleet and infrastructure
 view-if: sector = "publicservice"
 on-arrival: physicalresources = "Public transport fleet and infrastructure"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation operates a public transport fleet and infrastructure.
@@ -253,6 +281,7 @@ Me: Our organisation operates a public transport fleet and infrastructure.
 title: Hospital buildings and medical equipment
 view-if: sector = "publicservice"
 on-arrival: physicalresources = "Hospital buildings and medical equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation owns hospital buildings and medical equipment.
@@ -261,6 +290,7 @@ Me: Our organisation owns hospital buildings and medical equipment.
 title: Government buildings and public infrastructure
 view-if: sector = "publicservice"
 on-arrival: physicalresources = "Government buildings and public infrastructure"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our physical resources are government buildings and public infrastructure.
@@ -269,6 +299,7 @@ Me: Our physical resources are government buildings and public infrastructure.
 title: Protected lands and conservation equipment
 view-if: sector = "publicservice"
 on-arrival: physicalresources = "Protected lands and conservation equipment"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation stewards land and has conservation equipment.
@@ -279,6 +310,7 @@ Me: Our organisation stewards land and has conservation equipment.
 title: Government buildings and national assets
 view-if: sector = "policymaking"
 on-arrival: physicalresources = "Government buildings and national assets"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation owns government buildings and national assets.
@@ -287,6 +319,7 @@ Me: Our organisation owns government buildings and national assets.
 title: City hall and municipal facilities
 view-if: sector = "policymaking"
 on-arrival: physicalresources = "City hall and municipal facilities"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation is based in city hall and municipal facilities.
@@ -295,6 +328,7 @@ Me: Our organisation is based in city hall and municipal facilities.
 title: Embassies and diplomatic facilities
 view-if: sector = "policymaking"
 on-arrival: physicalresources = "Embassies and diplomatic facilities"
+go-to: human_resources
 tags: physical_rcs
 
 Me: Our organisation operates through embassies and diplomatic facilities.
